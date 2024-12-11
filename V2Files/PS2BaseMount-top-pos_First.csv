@@ -1,0 +1,27 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,10U,C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,219.8,-48,90,top
+C2,470n,C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,160.8,-39.4875,270,top
+C3,470n,C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,139,-39.4,90,top
+C4,C1u,C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,140.3125,-45.95,0,top
+C5,C1u,C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,159.25,-45.95,180,top
+C6,C1u,C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,159.2,-43.6,0,top
+C9,470n,C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,164.4,-39.4,90,top
+D1,DIODE,Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering,109.854,-165.415,270,top
+D5,D_Schottky,Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering,83.6,-109.4,0,top
+G***,LOGO,ColossusLogo2,164.4,-120.4,0,top
+G***,LOGO,BitBuiltLogo,137.2,-87.4,0,top
+J1,RJ45,RJ45_Floating,124.0955,-93.4975,270,top
+J4,USB_B,USB_A_Custom_Throughhole_MountGuide,86,-39.2,90,top
+L1,INDUCTOR_33uH,L_12x12mm_H8mm,82.6,-98.4,180,top
+P1,PS2_MemCardMount,PS2_MemCardMountPoints,224.5975,-95.5295,0,top
+Q1,2N7000,2N7000_HandSolder,177.8,-51.8,90,top
+Q3,2N7000,2N7000_HandSolder,110.6,-156,0,top
+R1,100K,R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,183.6,-56,180,top
+R2,1K,R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,183.6,-53.4,180,top
+R6,1K,R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,110,-151.8,180,top
+R7,4.7K,D_2010_5025Metric_Pad1.52x2.65mm_HandSolder,214.7,-46.95,180,top
+R17,R10K,R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,157,-39.4875,90,top
+R18,R10K,R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,142,-39.3125,270,top
+R19,R10K,R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,140.3125,-43.4,0,top
+U5,PAM8403,so-16,148.594,-41.710499,90,top
+U20,LM2596T-5,TO-263-5_TabPin3,67.6,-116.4,180,top

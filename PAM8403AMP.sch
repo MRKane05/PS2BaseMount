@@ -1,0 +1,427 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PS2BaseMount-rescue:AudioMount-PS2BoardItems U?
+U 1 1 62D7723D
+P 2900 4750
+F 0 "U?" H 2856 5075 50  0000 C CNN
+F 1 "Audio_Left" H 2856 4984 50  0000 C CNN
+F 2 "PS2BaseMount:JST_1.5_2Pin" H 2900 4750 50  0001 C CNN
+F 3 "" H 2900 4750 50  0001 C CNN
+	1    2900 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L PS2BaseMount-rescue:PAM8403-pamamp U?
+U 1 1 62D7724A
+P 6850 4600
+F 0 "U?" H 6850 5287 60  0000 C CNN
+F 1 "PAM8403" H 6850 5181 60  0000 C CNN
+F 2 "w_smd_dil:so-16" H 6850 4550 60  0001 C CNN
+F 3 "" H 6850 4550 60  0001 C CNN
+F 4 "C348830" H 6850 4600 50  0001 C CNN "LCSC"
+	1    6850 4600
+	1    0    0    -1  
+$EndComp
+Text GLabel 6200 4200 0    50   Input ~ 0
++OUT_L
+Text GLabel 6200 4400 0    50   Input ~ 0
+-OUT_L
+Text GLabel 6200 4800 0    50   Input ~ 0
+INL
+Text GLabel 7500 4200 2    50   Input ~ 0
++OUT_R
+Text GLabel 7500 4600 2    50   Input ~ 0
+SHND
+$Comp
+L power:GND #PWR?
+U 1 1 62D77255
+P 7500 4700
+F 0 "#PWR?" H 7500 4450 50  0001 C CNN
+F 1 "GND" V 7505 4572 50  0000 R CNN
+F 2 "" H 7500 4700 50  0001 C CNN
+F 3 "" H 7500 4700 50  0001 C CNN
+	1    7500 4700
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7500 4800 2    50   Input ~ 0
+INR
+$Comp
+L power:GND #PWR?
+U 1 1 62D7725C
+P 7500 4900
+F 0 "#PWR?" H 7500 4650 50  0001 C CNN
+F 1 "GND" V 7505 4772 50  0000 R CNN
+F 2 "" H 7500 4900 50  0001 C CNN
+F 3 "" H 7500 4900 50  0001 C CNN
+	1    7500 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 4200 6300 4200
+Wire Wire Line
+	6300 4300 6200 4300
+Wire Wire Line
+	6200 4400 6300 4400
+Wire Wire Line
+	6200 4800 6300 4800
+Wire Wire Line
+	6300 4900 6200 4900
+Wire Wire Line
+	7400 4200 7500 4200
+Wire Wire Line
+	7500 4300 7400 4300
+Wire Wire Line
+	7400 4400 7500 4400
+Wire Wire Line
+	7400 4600 7500 4600
+Wire Wire Line
+	7500 4700 7400 4700
+Wire Wire Line
+	7400 4800 7500 4800
+Wire Wire Line
+	7500 4900 7400 4900
+$Comp
+L PS2BaseMount-rescue:AudioMount-PS2BoardItems U?
+U 1 1 62D7726E
+P 4250 4750
+F 0 "U?" H 4022 4709 50  0000 R CNN
+F 1 "Audio_Right" H 4022 4800 50  0000 R CNN
+F 2 "PS2BaseMount:JST_1.5_2Pin" H 4250 4750 50  0001 C CNN
+F 3 "" H 4250 4750 50  0001 C CNN
+	1    4250 4750
+	-1   0    0    1   
+$EndComp
+Text GLabel 3000 3550 0    50   Input ~ 0
+IN_L
+$Comp
+L Device:C C?
+U 1 1 62D77276
+P 3300 3550
+F 0 "C?" V 3048 3550 50  0000 C CNN
+F 1 "470n" V 3139 3550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3338 3400 50  0001 C CNN
+F 3 "~" H 3300 3550 50  0001 C CNN
+F 4 "C1871" V 3300 3550 50  0001 C CNN "LCSC"
+	1    3300 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 62D7727D
+P 3650 3550
+F 0 "R?" V 3454 3550 50  0000 C CNN
+F 1 "R10K" V 3545 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3650 3550 50  0001 C CNN
+F 3 "~" H 3650 3550 50  0001 C CNN
+F 4 "C17902" V 3650 3550 50  0001 C CNN "LCSC"
+	1    3650 3550
+	0    1    1    0   
+$EndComp
+Text GLabel 3850 3550 2    50   Input ~ 0
+INL
+Wire Wire Line
+	3450 3550 3550 3550
+Wire Wire Line
+	3750 3550 3850 3550
+Text GLabel 3000 3950 0    50   Input ~ 0
+IN_R
+$Comp
+L Device:C C?
+U 1 1 62D77288
+P 3300 3950
+F 0 "C?" V 3048 3950 50  0000 C CNN
+F 1 "470n" V 3139 3950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3338 3800 50  0001 C CNN
+F 3 "~" H 3300 3950 50  0001 C CNN
+F 4 "C1871" V 3300 3950 50  0001 C CNN "LCSC"
+	1    3300 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 62D7728F
+P 3650 3950
+F 0 "R?" V 3454 3950 50  0000 C CNN
+F 1 "R10K" V 3545 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3650 3950 50  0001 C CNN
+F 3 "~" H 3650 3950 50  0001 C CNN
+F 4 "C17902" V 3650 3950 50  0001 C CNN "LCSC"
+	1    3650 3950
+	0    1    1    0   
+$EndComp
+Text GLabel 3850 3950 2    50   Input ~ 0
+INR
+Wire Wire Line
+	3450 3950 3550 3950
+Wire Wire Line
+	3750 3950 3850 3950
+Text GLabel 4400 3550 0    50   Input ~ 0
+SHND
+$Comp
+L Device:R_Small R?
+U 1 1 62D7729A
+P 4600 3550
+F 0 "R?" V 4404 3550 50  0000 C CNN
+F 1 "R10K" V 4495 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4600 3550 50  0001 C CNN
+F 3 "~" H 4600 3550 50  0001 C CNN
+F 4 "C17902" V 4600 3550 50  0001 C CNN "LCSC"
+	1    4600 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 62D772A0
+P 4800 3550
+F 0 "#PWR?" H 4800 3400 50  0001 C CNN
+F 1 "+5V" V 4815 3678 50  0000 L CNN
+F 2 "" H 4800 3550 50  0001 C CNN
+F 3 "" H 4800 3550 50  0001 C CNN
+	1    4800 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 3550 4800 3550
+Wire Wire Line
+	4500 3550 4400 3550
+Text GLabel 4050 4750 0    50   Input ~ 0
++OUT_R
+Text GLabel 4050 4850 0    50   Input ~ 0
+-OUT_R
+Text GLabel 3100 4650 2    50   Input ~ 0
++OUT_L
+Text GLabel 3100 4750 2    50   Input ~ 0
+-OUT_L
+Wire Wire Line
+	4050 4750 4150 4750
+Wire Wire Line
+	4150 4850 4050 4850
+Wire Wire Line
+	3000 4650 3100 4650
+Wire Wire Line
+	3100 4750 3000 4750
+$Comp
+L Device:C C?
+U 1 1 62D772B1
+P 6200 3200
+F 0 "C?" V 5948 3200 50  0000 C CNN
+F 1 "C1u" V 6039 3200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6238 3050 50  0001 C CNN
+F 3 "~" H 6200 3200 50  0001 C CNN
+F 4 "C1848" V 6200 3200 50  0001 C CNN "LCSC"
+	1    6200 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62D772B7
+P 6200 3450
+F 0 "#PWR?" H 6200 3200 50  0001 C CNN
+F 1 "GND" V 6205 3322 50  0000 R CNN
+F 2 "" H 6200 3450 50  0001 C CNN
+F 3 "" H 6200 3450 50  0001 C CNN
+	1    6200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 62D772BD
+P 5600 4650
+F 0 "#PWR?" H 5600 4500 50  0001 C CNN
+F 1 "+5V" V 5615 4778 50  0000 L CNN
+F 2 "" H 5600 4650 50  0001 C CNN
+F 3 "" H 5600 4650 50  0001 C CNN
+	1    5600 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 4900 6200 4950
+$Comp
+L power:GND #PWR?
+U 1 1 62D772C4
+P 6900 3500
+F 0 "#PWR?" H 6900 3250 50  0001 C CNN
+F 1 "GND" V 6905 3372 50  0000 R CNN
+F 2 "" H 6900 3500 50  0001 C CNN
+F 3 "" H 6900 3500 50  0001 C CNN
+	1    6900 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 62D772CA
+P 6900 3250
+F 0 "C?" V 7152 3250 50  0000 C CNN
+F 1 "C470u" V 7061 3250 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm" H 6900 3250 50  0001 C CNN
+F 3 "~" H 6900 3250 50  0001 C CNN
+	1    6900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62D772D0
+P 7750 3500
+F 0 "#PWR?" H 7750 3250 50  0001 C CNN
+F 1 "GND" V 7755 3372 50  0000 R CNN
+F 2 "" H 7750 3500 50  0001 C CNN
+F 3 "" H 7750 3500 50  0001 C CNN
+	1    7750 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 3400 7750 3500
+$Comp
+L Device:C C?
+U 1 1 62D772D8
+P 7750 3250
+F 0 "C?" V 7498 3250 50  0000 C CNN
+F 1 "C1u" V 7589 3250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7788 3100 50  0001 C CNN
+F 3 "~" H 7750 3250 50  0001 C CNN
+F 4 "C1848" V 7750 3250 50  0001 C CNN "LCSC"
+	1    7750 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62D772DF
+P 6200 5100
+F 0 "C?" V 5948 5100 50  0000 C CNN
+F 1 "470n" V 6039 5100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6238 4950 50  0001 C CNN
+F 3 "~" H 6200 5100 50  0001 C CNN
+F 4 "C1871" V 6200 5100 50  0001 C CNN "LCSC"
+	1    6200 5100
+	-1   0    0    1   
+$EndComp
+Text GLabel 7500 4400 2    50   Input ~ 0
+-OUT_R
+Wire Wire Line
+	6900 2950 7450 2950
+Wire Wire Line
+	7750 2950 7750 3100
+Connection ~ 6900 2950
+Wire Wire Line
+	6900 2950 6900 3100
+Wire Wire Line
+	6900 2950 6600 2950
+Wire Wire Line
+	6200 2950 6200 3050
+Wire Wire Line
+	7450 2950 7450 4050
+Wire Wire Line
+	7450 4050 8100 4050
+Wire Wire Line
+	8100 4050 8100 4500
+Wire Wire Line
+	8100 4500 7400 4500
+Connection ~ 7450 2950
+Wire Wire Line
+	7450 2950 7750 2950
+Wire Wire Line
+	6600 2950 6600 4000
+Wire Wire Line
+	6600 4000 5700 4000
+Wire Wire Line
+	5700 4000 5700 4500
+Wire Wire Line
+	5700 4500 6300 4500
+Connection ~ 6600 2950
+Wire Wire Line
+	6600 2950 6200 2950
+Wire Wire Line
+	5600 4650 5750 4650
+Wire Wire Line
+	5750 4650 5750 4600
+Wire Wire Line
+	5750 4600 6300 4600
+Wire Wire Line
+	5750 4700 5750 4650
+Wire Wire Line
+	5750 4700 6300 4700
+Connection ~ 5750 4650
+$Comp
+L power:GND #PWR?
+U 1 1 62D772FE
+P 6200 5350
+F 0 "#PWR?" H 6200 5100 50  0001 C CNN
+F 1 "GND" H 6205 5177 50  0000 C CNN
+F 2 "" H 6200 5350 50  0001 C CNN
+F 3 "" H 6200 5350 50  0001 C CNN
+	1    6200 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 5350 6200 5250
+Wire Wire Line
+	3000 3550 3150 3550
+Wire Wire Line
+	3150 3950 3000 3950
+Wire Wire Line
+	6900 3500 6900 3400
+Wire Wire Line
+	6200 3450 6200 3350
+$Comp
+L power:GND #PWR?
+U 1 1 62D77309
+P 6200 4300
+F 0 "#PWR?" H 6200 4050 50  0001 C CNN
+F 1 "GND" V 6205 4172 50  0000 R CNN
+F 2 "" H 6200 4300 50  0001 C CNN
+F 3 "" H 6200 4300 50  0001 C CNN
+	1    6200 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62D7730F
+P 7500 4300
+F 0 "#PWR?" H 7500 4050 50  0001 C CNN
+F 1 "GND" V 7505 4172 50  0000 R CNN
+F 2 "" H 7500 4300 50  0001 C CNN
+F 3 "" H 7500 4300 50  0001 C CNN
+	1    7500 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62D77316
+P 5300 4650
+F 0 "C?" V 5048 4650 50  0000 C CNN
+F 1 "C1u" V 5139 4650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5338 4500 50  0001 C CNN
+F 3 "~" H 5300 4650 50  0001 C CNN
+F 4 "C1848" V 5300 4650 50  0001 C CNN "LCSC"
+	1    5300 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 4650 5600 4650
+Connection ~ 5600 4650
+$Comp
+L power:GND #PWR?
+U 1 1 62D7731E
+P 5150 4650
+F 0 "#PWR?" H 5150 4400 50  0001 C CNN
+F 1 "GND" V 5155 4522 50  0000 R CNN
+F 2 "" H 5150 4650 50  0001 C CNN
+F 3 "" H 5150 4650 50  0001 C CNN
+	1    5150 4650
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

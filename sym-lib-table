@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name PS2BaseMount-rescue)(type Legacy)(uri ${KIPRJMOD}/PS2BaseMount-rescue.lib)(options "")(descr ""))
+  (lib (name PiBoards)(type Legacy)(uri /Users/Mark/Documents/ConsoleModification/7.0_PS2/PS2BaseMount/PS2BaseMount/AdditionalLibraries/OrangePiBoards/PiBoards/PiBoards.lib)(options "")(descr ""))
+)

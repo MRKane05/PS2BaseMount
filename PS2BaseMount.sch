@@ -1,0 +1,2648 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PS2BaseMount-rescue:PS2_ControlMount-PS2BoardItems P3
+U 1 1 5C454CB4
+P 9350 3300
+F 0 "P3" H 9225 3965 50  0000 C CNN
+F 1 "PS2_ControlMount" H 9225 3874 50  0000 C CNN
+F 2 "PS2BaseMount:PS2_BoardMountFootprint" H 9300 3300 50  0001 C CNN
+F 3 "" H 9300 3300 50  0001 C CNN
+	1    9350 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L PS2BaseMount-rescue:PS2AVPort-PS2BoardItems M2
+U 1 1 5C456998
+P -2850 4450
+F 0 "M2" H -2825 4925 50  0000 C CNN
+F 1 "PS2AVPort" H -2825 4834 50  0000 C CNN
+F 2 "PS2BaseMount:PS2_AVPort_Complete" H -2950 4150 50  0001 C CNN
+F 3 "" H -2950 4150 50  0001 C CNN
+	1    -2850 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:RJ45 J1
+U 1 1 5C69E8B1
+P -4100 -2500
+F 0 "J1" H -4430 -2496 50  0000 R CNN
+F 1 "RJ45" H -4430 -2405 50  0000 R CNN
+F 2 "PS2BaseMount:RJ45_Floating" V -4100 -2475 50  0001 C CNN
+F 3 "~" V -4100 -2475 50  0001 C CNN
+	1    -4100 -2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L PS2BaseMount-rescue:SM05B-GHS-TB(LF)(SN)-PS2BoardItems M4
+U 1 1 5C78B414
+P 13550 3100
+F 0 "M4" H 13373 3060 50  0000 R CNN
+F 1 "TS_RHT" H 13373 3151 50  0000 R CNN
+F 2 "PS2BaseMount:JST_1.25_5Pin" H 13550 3100 50  0001 C CNN
+F 3 "" H 13550 3100 50  0001 C CNN
+	1    13550 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L PS2BaseMount-rescue:SM05B-GHS-TB(LF)(SN)-PS2BoardItems M3
+U 1 1 5C78B6DF
+P 11850 3000
+F 0 "M3" H 11672 3053 50  0000 R CNN
+F 1 "TS_LFT" H 11672 2962 50  0000 R CNN
+F 2 "PS2BaseMount:JST_1.25_5Pin" H 11850 3000 50  0001 C CNN
+F 3 "" H 11850 3000 50  0001 C CNN
+	1    11850 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5C8E6C74
+P -150 3700
+F 0 "#PWR0101" H -150 3450 50  0001 C CNN
+F 1 "GND" H -145 3527 50  0000 C CNN
+F 2 "" H -150 3700 50  0001 C CNN
+F 3 "" H -150 3700 50  0001 C CNN
+	1    -150 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-150 3700 -150 3500
+$Comp
+L PS2BaseMount-rescue:AudioMount-PS2BoardItems U3
+U 1 1 5CA195F8
+P -5350 1400
+F 0 "U3" H -5394 1725 50  0000 C CNN
+F 1 "Audio_Left" H -5394 1634 50  0000 C CNN
+F 2 "PS2BaseMount:JST_1.5_2Pin" H -5350 1400 50  0001 C CNN
+F 3 "" H -5350 1400 50  0001 C CNN
+	1    -5350 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PS2BaseMount-rescue:PS2AVPort-PS2BoardItems M1
+U 1 1 5CB2CCDA
+P -1950 6200
+F 0 "M1" H -1925 6675 50  0000 C CNN
+F 1 "PS2AVPort_SideMount" H -1925 6584 50  0000 C CNN
+F 2 "PS2BaseMount:PS2_AVPort_Complete_MountSilk" H -2050 5900 50  0001 C CNN
+F 3 "" H -2050 5900 50  0001 C CNN
+	1    -1950 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L PS2BaseMount-rescue:PS2_MemCardMount-PS2BoardItems P1
+U 1 1 5CB32299
+P 1800 5200
+F 0 "P1" H 1869 5675 50  0000 C CNN
+F 1 "PS2_MemCardMount" H 1869 5584 50  0000 C CNN
+F 2 "PS2BaseMount:PS2_MemCardMountPoints" H 2100 5100 50  0001 C CNN
+F 3 "" H 2100 5100 50  0001 C CNN
+	1    1800 5200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 4950 2250 4950
+Wire Wire Line
+	2250 5050 2000 5050
+Wire Wire Line
+	2000 5150 2250 5150
+Wire Wire Line
+	2250 5250 2000 5250
+Wire Wire Line
+	2000 5350 2250 5350
+Wire Wire Line
+	2250 5450 2000 5450
+Wire Wire Line
+	2000 5550 2250 5550
+Wire Wire Line
+	2250 5650 2000 5650
+$Comp
+L PS2BaseMount-rescue:XOST_Buttons-PS2BoardItems U9
+U 1 1 5D35560B
+P 7300 4500
+F 0 "U9" H 7528 4501 50  0000 L CNN
+F 1 "XOST_Buttons" H 7528 4410 50  0000 L CNN
+F 2 "PS2BaseMount:XOST_ButtonsV2" H 7250 4500 50  0001 C CNN
+F 3 "" H 7250 4500 50  0001 C CNN
+	1    7300 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 4100 5650 4150
+$Comp
+L Device:R_Small_US R2
+U 1 1 5D4A26A6
+P 2500 2650
+F 0 "R2" V 2295 2650 50  0000 C CNN
+F 1 "1K" V 2386 2650 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2500 2650 50  0001 C CNN
+F 3 "~" H 2500 2650 50  0001 C CNN
+	1    2500 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 5D4A3546
+P 2150 2300
+F 0 "R1" H 2218 2346 50  0000 L CNN
+F 1 "100K" H 2218 2255 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2150 2300 50  0001 C CNN
+F 3 "~" H 2150 2300 50  0001 C CNN
+	1    2150 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q1
+U 1 1 5D4A4A35
+P 1600 2650
+F 0 "Q1" H 1806 2604 50  0000 L CNN
+F 1 "2N7000" H 1806 2695 50  0000 L CNN
+F 2 "PS2BaseMount:2N7000_HandSolder" H 1800 2575 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 1600 2650 50  0001 L CNN
+	1    1600 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2400 2650 2150 2650
+Wire Wire Line
+	2150 2400 2150 2650
+Connection ~ 2150 2650
+Wire Wire Line
+	2150 2650 1800 2650
+Wire Wire Line
+	2150 1900 2150 2200
+Wire Wire Line
+	1500 1900 1500 2450
+Wire Wire Line
+	2800 2700 2800 2650
+Wire Wire Line
+	2800 2650 2600 2650
+Wire Wire Line
+	5750 4100 5750 4850
+Wire Wire Line
+	5750 4850 5500 4850
+Wire Wire Line
+	5800 4150 5650 4150
+Wire Wire Line
+	5550 4800 5900 4800
+NoConn ~ 6650 3200
+NoConn ~ 6650 3300
+NoConn ~ 6650 3400
+NoConn ~ 5650 2100
+NoConn ~ 5550 2100
+NoConn ~ 5450 2100
+NoConn ~ 4650 2900
+NoConn ~ 4650 3000
+Wire Wire Line
+	5200 3100 5200 3000
+Wire Wire Line
+	5250 3200 5250 3100
+NoConn ~ 6000 5100
+Wire Wire Line
+	5900 4800 5900 5100
+$Comp
+L Connector:Conn_01x06_Female J2
+U 1 1 5D4C77D6
+P 5800 5300
+F 0 "J2" V 5646 5548 50  0000 L CNN
+F 1 "Conn_01x06_Female" V 5737 5548 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 5800 5300 50  0001 C CNN
+F 3 "~" H 5800 5300 50  0001 C CNN
+	1    5800 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 5100 5800 4150
+Wire Wire Line
+	5500 4850 5500 5100
+Text GLabel 5600 5050 1    50   Input ~ 0
+PS_3.4v
+Wire Wire Line
+	5600 4950 5600 5100
+Wire Wire Line
+	5700 4950 5700 5100
+Text GLabel 5700 5050 1    50   Input ~ 0
+GND
+Text GLabel 4050 3000 1    50   Input ~ 0
+GND
+Wire Wire Line
+	4050 3000 4050 3100
+Connection ~ 4050 3100
+Wire Wire Line
+	4050 3100 3650 3100
+$Comp
+L power:GND #PWR0109
+U 1 1 5D4F966D
+P 8950 3400
+F 0 "#PWR0109" H 8950 3150 50  0001 C CNN
+F 1 "GND" V 8955 3272 50  0000 R CNN
+F 2 "" H 8950 3400 50  0001 C CNN
+F 3 "" H 8950 3400 50  0001 C CNN
+	1    8950 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8950 3400 9050 3400
+Wire Wire Line
+	2800 2700 4650 2700
+$Comp
+L PS2BaseMount-rescue:RJ14K-PS2BoardItems U10
+U 1 1 5DF2A7D1
+P -800 4450
+F 0 "U10" H -850 4875 50  0000 C CNN
+F 1 "RJ14K" H -850 4784 50  0000 C CNN
+F 2 "PS2BaseMount:RJ14K_Modified" H -800 4450 50  0001 C CNN
+F 3 "" H -800 4450 50  0001 C CNN
+	1    -800 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5DF5300F
+P -1300 4450
+F 0 "#PWR0113" H -1300 4200 50  0001 C CNN
+F 1 "GND" H -1295 4277 50  0000 C CNN
+F 2 "" H -1300 4450 50  0001 C CNN
+F 3 "" H -1300 4450 50  0001 C CNN
+	1    -1300 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1300 4450 -1200 4450
+Wire Wire Line
+	-500 4350 -350 4350
+Wire Wire Line
+	-350 4350 -350 3500
+Wire Wire Line
+	-500 4250 -250 4250
+Wire Wire Line
+	-250 4250 -250 3500
+$Comp
+L Connector:RJ45 J5
+U 1 1 5DDDD536
+P -5100 -2500
+F 0 "J5" H -5430 -2496 50  0000 R CNN
+F 1 "RJ45" H -5430 -2405 50  0000 R CNN
+F 2 "PS2BaseMount:RJ45_Floating" V -5100 -2475 50  0001 C CNN
+F 3 "~" V -5100 -2475 50  0001 C CNN
+	1    -5100 -2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:DB15_Female_HighDensity J6
+U 1 1 5DFBF400
+P -4250 4650
+F 0 "J6" H -4250 5517 50  0000 C CNN
+F 1 "DB15_Female_HighDensity" H -4250 5426 50  0000 C CNN
+F 2 "PS2BaseMount:ScreenBoardArea" H -5200 5050 50  0001 C CNN
+F 3 " ~" H -5200 5050 50  0001 C CNN
+	1    -4250 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L PS2BaseMount-rescue:18650_BatteryMount-PS2BoardItems U11
+U 1 1 5E0CC8EA
+P -4250 7800
+F 0 "U11" H -4275 8065 50  0000 C CNN
+F 1 "18650_BatteryMount" H -4275 7974 50  0000 C CNN
+F 2 "PS2BaseMount:18650_3xHolderV3" H -4250 7800 50  0001 C CNN
+F 3 "" H -4250 7800 50  0001 C CNN
+	1    -4250 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L PS2BaseMount-rescue:18650_BatteryMount-PS2BoardItems U12
+U 1 1 5E0CD533
+P -4250 8300
+F 0 "U12" H -4275 8565 50  0000 C CNN
+F 1 "18650_BatteryMount" H -4275 8474 50  0000 C CNN
+F 2 "PS2BaseMount:18650_3xHolderV3" H -4250 8300 50  0001 C CNN
+F 3 "" H -4250 8300 50  0001 C CNN
+	1    -4250 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 5E15DD0E
+P -5050 4150
+F 0 "#PWR0118" H -5050 3900 50  0001 C CNN
+F 1 "GND" V -5045 4022 50  0000 R CNN
+F 2 "" H -5050 4150 50  0001 C CNN
+F 3 "" H -5050 4150 50  0001 C CNN
+	1    -5050 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-5050 4150 -4950 4150
+Wire Wire Line
+	-4550 4350 -4850 4350
+Wire Wire Line
+	-4850 4350 -4850 4150
+Connection ~ -4850 4150
+Wire Wire Line
+	-4850 4150 -4550 4150
+Wire Wire Line
+	-4550 4550 -4950 4550
+Wire Wire Line
+	-4950 4550 -4950 4150
+Connection ~ -4950 4150
+Wire Wire Line
+	-4950 4150 -4850 4150
+$Comp
+L PS2BaseMount-rescue:SM03B-GHS-TB(LF)(SN)-PS2BoardItems M5
+U 1 1 5E174F76
+P 11800 3750
+F 0 "M5" H 11672 3853 50  0000 R CNN
+F 1 "TRIGGERS_LFT" H 11672 3762 50  0000 R CNN
+F 2 "PS2BaseMount:JST_1.25_3Pin" H 11850 3650 50  0001 C CNN
+F 3 "" H 11850 3650 50  0001 C CNN
+	1    11800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L PS2BaseMount-rescue:SM03B-GHS-TB(LF)(SN)-PS2BoardItems M6
+U 1 1 5E1765DD
+P 13600 3800
+F 0 "M6" H 13472 3810 50  0000 R CNN
+F 1 "TRIGGERS_RIGHT" H 13472 3901 50  0000 R CNN
+F 2 "PS2BaseMount:JST_1.25_3Pin" H 13650 3700 50  0001 C CNN
+F 3 "" H 13650 3700 50  0001 C CNN
+	1    13600 3800
+	-1   0    0    1   
+$EndComp
+Text GLabel 7700 3600 2    50   Input ~ 0
+ACK
+Text GLabel 7700 3500 2    50   Input ~ 0
+ATT
+Text GLabel 8950 2900 0    50   Input ~ 0
+ACK
+Text GLabel 8950 3200 0    50   Input ~ 0
+ATT
+Wire Wire Line
+	8950 2900 9050 2900
+Wire Wire Line
+	8950 3200 9050 3200
+Text GLabel 8950 3100 0    50   Input ~ 0
+CLK
+Wire Wire Line
+	8950 3100 9050 3100
+Text GLabel 5850 1350 1    50   Input ~ 0
+CLK
+Text GLabel 8900 3600 0    50   Input ~ 0
+CMD
+Text GLabel 8900 3700 0    50   Input ~ 0
+DAT
+Text GLabel 5250 1350 1    50   Input ~ 0
+DAT
+Text GLabel 5350 1350 1    50   Input ~ 0
+CMD
+Wire Wire Line
+	9050 3600 8900 3600
+Wire Wire Line
+	8900 3700 9050 3700
+Text GLabel 5350 4800 3    50   Input ~ 0
+DDOWN
+Text GLabel 5450 4800 3    50   Input ~ 0
+DLEFT
+Text GLabel 6150 4500 3    50   Input ~ 0
+BTN_TRI
+Text GLabel 6050 4500 3    50   Input ~ 0
+BTN_SQR
+Text GLabel 5950 4500 3    50   Input ~ 0
+BTN_X
+Text GLabel 5850 4500 3    50   Input ~ 0
+BTN_O
+$Comp
+L PS2BaseMount-rescue:XOST_Buttons-PS2BoardItems U13
+U 1 1 5E59A8B5
+P 7300 5100
+F 0 "U13" H 7528 5101 50  0000 L CNN
+F 1 "DPAD" H 7528 5010 50  0000 L CNN
+F 2 "PS2BaseMount:DPad_Buttons" H 7250 5100 50  0001 C CNN
+F 3 "" H 7250 5100 50  0001 C CNN
+	1    7300 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 5E59C424
+P 7050 4350
+F 0 "#PWR0119" H 7050 4100 50  0001 C CNN
+F 1 "GND" V 7055 4222 50  0000 R CNN
+F 2 "" H 7050 4350 50  0001 C CNN
+F 3 "" H 7050 4350 50  0001 C CNN
+	1    7050 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 5E59C86E
+P 7050 4950
+F 0 "#PWR0120" H 7050 4700 50  0001 C CNN
+F 1 "GND" V 7055 4822 50  0000 R CNN
+F 2 "" H 7050 4950 50  0001 C CNN
+F 3 "" H 7050 4950 50  0001 C CNN
+	1    7050 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7050 4350 7150 4350
+Wire Wire Line
+	7050 4950 7150 4950
+Text GLabel 7050 4450 0    50   Input ~ 0
+BTN_TRI
+Text GLabel 7050 4550 0    50   Input ~ 0
+BTN_O
+Text GLabel 7050 4650 0    50   Input ~ 0
+BTN_X
+Text GLabel 7050 4750 0    50   Input ~ 0
+BTN_SQR
+Wire Wire Line
+	7050 4450 7150 4450
+Wire Wire Line
+	7150 4550 7050 4550
+Wire Wire Line
+	7050 4650 7150 4650
+Wire Wire Line
+	7150 4750 7050 4750
+Text GLabel 7050 5050 0    50   Input ~ 0
+DUP
+Text GLabel 7050 5150 0    50   Input ~ 0
+DRIGHT
+Text GLabel 7050 5250 0    50   Input ~ 0
+DDOWN
+Text GLabel 7050 5350 0    50   Input ~ 0
+DLEFT
+Wire Wire Line
+	7050 5050 7150 5050
+Wire Wire Line
+	7150 5150 7050 5150
+Wire Wire Line
+	7050 5250 7150 5250
+Wire Wire Line
+	7150 5350 7050 5350
+Text GLabel 7300 2800 2    50   Input ~ 0
+BTN_R2
+Text GLabel 7300 2900 2    50   Input ~ 0
+BTN_R1
+$Comp
+L power:GND #PWR0121
+U 1 1 5E677F1E
+P 13200 2850
+F 0 "#PWR0121" H 13200 2600 50  0001 C CNN
+F 1 "GND" V 13205 2722 50  0000 R CNN
+F 2 "" H 13200 2850 50  0001 C CNN
+F 3 "" H 13200 2850 50  0001 C CNN
+	1    13200 2850
+	0    1    1    0   
+$EndComp
+Text GLabel 13200 2950 0    50   Input ~ 0
+RX1
+Text GLabel 13200 3050 0    50   Input ~ 0
+PS_3.4v
+Text GLabel 13200 3150 0    50   Input ~ 0
+RY1
+Text GLabel 13200 3250 0    50   Input ~ 0
+BTN_R3
+Wire Wire Line
+	13200 2850 13350 2850
+Wire Wire Line
+	13350 2950 13200 2950
+Wire Wire Line
+	13200 3050 13350 3050
+Wire Wire Line
+	13350 3150 13200 3150
+Wire Wire Line
+	13200 3250 13350 3250
+Text GLabel 4150 2600 0    50   Input ~ 0
+LY1
+Text GLabel 5750 1350 1    50   Input ~ 0
+BTN_L3
+Text GLabel 5950 1350 1    50   Input ~ 0
+BTN_R3
+Text GLabel 7600 2700 2    50   Input ~ 0
+RX1
+Text GLabel 6050 1350 1    50   Input ~ 0
+RY1
+Text GLabel 8850 3300 0    50   Input ~ 0
+PS_3.4v
+Wire Wire Line
+	8850 3300 9050 3300
+Text GLabel 7650 3100 2    50   Input ~ 0
+PS_3.4v
+Text GLabel 3700 3200 0    50   Input ~ 0
+PS_3.4v
+$Comp
+L power:GND #PWR0105
+U 1 1 5E873332
+P 13200 3900
+F 0 "#PWR0105" H 13200 3650 50  0001 C CNN
+F 1 "GND" V 13205 3772 50  0000 R CNN
+F 2 "" H 13200 3900 50  0001 C CNN
+F 3 "" H 13200 3900 50  0001 C CNN
+	1    13200 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13200 3900 13350 3900
+$Comp
+L power:GND #PWR0106
+U 1 1 5E89400C
+P 12150 3850
+F 0 "#PWR0106" H 12150 3600 50  0001 C CNN
+F 1 "GND" V 12155 3722 50  0000 R CNN
+F 2 "" H 12150 3850 50  0001 C CNN
+F 3 "" H 12150 3850 50  0001 C CNN
+	1    12150 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12150 3850 12050 3850
+Text GLabel 12150 3650 2    50   Input ~ 0
+BTN_L1
+Text GLabel 12150 3750 2    50   Input ~ 0
+BTN_L2
+Wire Wire Line
+	12050 3750 12150 3750
+Wire Wire Line
+	12050 3650 12150 3650
+Text GLabel 13250 3700 0    50   Input ~ 0
+BTN_R1
+Wire Wire Line
+	13250 3700 13350 3700
+Text GLabel 13250 3800 0    50   Input ~ 0
+BTN_R2
+Wire Wire Line
+	13250 3800 13350 3800
+Text GLabel 12150 2850 2    50   Input ~ 0
+BTN_L3
+Wire Wire Line
+	12050 2850 12150 2850
+Text GLabel 12150 2950 2    50   Input ~ 0
+LY1
+Wire Wire Line
+	12050 2950 12150 2950
+Text GLabel 12150 3050 2    50   Input ~ 0
+PS_3.4v
+Wire Wire Line
+	12150 3050 12050 3050
+Text GLabel 12150 3150 2    50   Input ~ 0
+LX1
+Wire Wire Line
+	12050 3150 12150 3150
+Text GLabel 12150 3250 2    50   Input ~ 0
+GND
+Wire Wire Line
+	12150 3250 12050 3250
+NoConn ~ 9900 2950
+NoConn ~ 9900 3050
+NoConn ~ 9900 3150
+NoConn ~ 9050 3000
+NoConn ~ 9900 3250
+NoConn ~ 9900 3350
+NoConn ~ 9900 3450
+NoConn ~ 9900 3550
+NoConn ~ 9900 3650
+NoConn ~ 3100 4900
+NoConn ~ 3100 5000
+NoConn ~ 3100 5100
+NoConn ~ 3100 5200
+NoConn ~ 3100 5400
+NoConn ~ 3100 5500
+NoConn ~ 3100 5600
+NoConn ~ 3100 5700
+NoConn ~ -4550 4750
+NoConn ~ -4550 4850
+NoConn ~ -4550 4950
+NoConn ~ -4550 5050
+NoConn ~ -3950 5050
+NoConn ~ -3950 4850
+NoConn ~ -3950 4650
+NoConn ~ -3950 4450
+NoConn ~ -3950 4250
+Text GLabel -2400 4250 2    50   Input ~ 0
+LADO
+Wire Wire Line
+	-2450 4250 -2400 4250
+Text GLabel -2400 4350 2    50   Input ~ 0
+RADO
+Wire Wire Line
+	-2450 4350 -2400 4350
+Text GLabel -1250 4250 0    50   Input ~ 0
+LADO
+Text GLabel -1250 4350 0    50   Input ~ 0
+RADO
+Wire Wire Line
+	-1250 4250 -1200 4250
+Wire Wire Line
+	-1200 4350 -1250 4350
+$Comp
+L power:GND #PWR0122
+U 1 1 5EC162DB
+P -3250 4200
+F 0 "#PWR0122" H -3250 3950 50  0001 C CNN
+F 1 "GND" V -3245 4072 50  0000 R CNN
+F 2 "" H -3250 4200 50  0001 C CNN
+F 3 "" H -3250 4200 50  0001 C CNN
+	1    -3250 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-3250 4200 -3200 4200
+Wire Wire Line
+	-3250 4200 -3250 4300
+Wire Wire Line
+	-3250 4300 -3200 4300
+Connection ~ -3250 4200
+Text GLabel -3250 4400 0    50   Input ~ 0
+LUM
+Text GLabel -3250 4500 0    50   Input ~ 0
+CHM
+Text GLabel -3250 4600 0    50   Input ~ 0
+BPb
+Text GLabel -3250 4700 0    50   Input ~ 0
+RPr
+Text GLabel -2400 4450 2    50   Input ~ 0
+COMP
+Text GLabel -2350 4750 2    50   Input ~ 0
+GY
+Wire Wire Line
+	-2450 4450 -2400 4450
+Wire Wire Line
+	-2400 4550 -2450 4550
+Wire Wire Line
+	-3250 4400 -3200 4400
+Wire Wire Line
+	-3250 4500 -3200 4500
+$Comp
+L power:GND #PWR0123
+U 1 1 5ECB27A4
+P -2400 5950
+F 0 "#PWR0123" H -2400 5700 50  0001 C CNN
+F 1 "GND" V -2395 5822 50  0000 R CNN
+F 2 "" H -2400 5950 50  0001 C CNN
+F 3 "" H -2400 5950 50  0001 C CNN
+	1    -2400 5950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-2400 5950 -2300 5950
+Wire Wire Line
+	-2400 5950 -2400 6050
+Wire Wire Line
+	-2400 6050 -2300 6050
+Connection ~ -2400 5950
+Text GLabel -2400 6150 0    50   Input ~ 0
+LUM
+Text GLabel -2400 6250 0    50   Input ~ 0
+CHM
+Text GLabel -2400 6350 0    50   Input ~ 0
+BPb
+Text GLabel -2400 6450 0    50   Input ~ 0
+RPr
+Text GLabel -1450 6000 2    50   Input ~ 0
+LADO
+Text GLabel -1450 6100 2    50   Input ~ 0
+RADO
+Text GLabel -1450 6200 2    50   Input ~ 0
+COMP
+Text GLabel -1450 6500 2    50   Input ~ 0
+GY
+Wire Wire Line
+	-2400 6150 -2300 6150
+Wire Wire Line
+	-2300 6250 -2400 6250
+Wire Wire Line
+	-2400 6350 -2300 6350
+Wire Wire Line
+	-2300 6450 -2400 6450
+Wire Wire Line
+	-1550 6000 -1450 6000
+Wire Wire Line
+	-1450 6100 -1550 6100
+Wire Wire Line
+	-1550 6200 -1450 6200
+Wire Wire Line
+	-1450 6300 -1550 6300
+Wire Wire Line
+	-1550 6400 -1450 6400
+Wire Wire Line
+	-1450 6500 -1550 6500
+Text GLabel -4600 4450 0    50   Input ~ 0
+BPb
+Text GLabel -4600 4650 0    50   Input ~ 0
+RPr
+Text GLabel -4650 4250 0    50   Input ~ 0
+GY
+Wire Wire Line
+	-3250 4600 -3200 4600
+Wire Wire Line
+	-4600 4450 -4550 4450
+Wire Wire Line
+	-3250 4700 -3200 4700
+Wire Wire Line
+	-4600 4650 -4550 4650
+Wire Wire Line
+	-2450 4750 -2350 4750
+Wire Wire Line
+	-4650 4250 -4550 4250
+$Comp
+L power:GND #PWR0125
+U 1 1 5E77ADB7
+P 1750 6850
+F 0 "#PWR0125" H 1750 6600 50  0001 C CNN
+F 1 "GND" H 1755 6677 50  0000 C CNN
+F 2 "" H 1750 6850 50  0001 C CNN
+F 3 "" H 1750 6850 50  0001 C CNN
+	1    1750 6850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1750 6850 1750 6900
+Text GLabel 1750 7400 3    50   Input ~ 0
+GND_OUT
+Text GLabel 1350 7100 1    50   Input ~ 0
+ENABLE
+Wire Wire Line
+	1400 7100 1450 7100
+Wire Wire Line
+	1350 7100 1400 7100
+$Comp
+L PS2BaseMount-rescue:AudioMount-PS2BoardItems U14
+U 1 1 5E73FA72
+P 850 900
+F 0 "U14" H 806 1225 50  0000 C CNN
+F 1 "RumbleA" H 806 1134 50  0000 C CNN
+F 2 "PS2BaseMount:JST_1.5_2Pin" H 850 900 50  0001 C CNN
+F 3 "" H 850 900 50  0001 C CNN
+	1    850  900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L PS2BaseMount-rescue:AudioMount-PS2BoardItems U15
+U 1 1 5E74255C
+P 850 1450
+F 0 "U15" H 806 1775 50  0000 C CNN
+F 1 "RumbleB" H 806 1684 50  0000 C CNN
+F 2 "PS2BaseMount:JST_1.5_2Pin" H 850 1450 50  0001 C CNN
+F 3 "" H 850 1450 50  0001 C CNN
+	1    850  1450
+	1    0    0    -1  
+$EndComp
+Text GLabel 1500 2900 3    50   Input ~ 0
+MTR-
+Text GLabel 1050 900  2    50   Input ~ 0
+MTR-
+Text GLabel 1050 1450 2    50   Input ~ 0
+MTR-
+$Comp
+L power:+5V #PWR0126
+U 1 1 5E81C259
+P 1050 800
+F 0 "#PWR0126" H 1050 650 50  0001 C CNN
+F 1 "+5V" V 1065 928 50  0000 L CNN
+F 2 "" H 1050 800 50  0001 C CNN
+F 3 "" H 1050 800 50  0001 C CNN
+	1    1050 800 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0127
+U 1 1 5E81C664
+P 1050 1350
+F 0 "#PWR0127" H 1050 1200 50  0001 C CNN
+F 1 "+5V" V 1065 1478 50  0000 L CNN
+F 2 "" H 1050 1350 50  0001 C CNN
+F 3 "" H 1050 1350 50  0001 C CNN
+	1    1050 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	950  1350 1050 1350
+Wire Wire Line
+	950  800  1050 800 
+Connection ~ 1400 7100
+$Comp
+L Sensor_Temperature:DS18B20 U6
+U 1 1 5E761E06
+P -9350 -3550
+F 0 "U6" V -9717 -3550 50  0000 C CNN
+F 1 "DS18B20" V -9626 -3550 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -10350 -3800 50  0001 C CNN
+F 3 "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf" H -9500 -3300 50  0001 C CNN
+	1    -9350 -3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R5
+U 1 1 5E764655
+P -9350 -4100
+F 0 "R5" V -9555 -4100 50  0000 C CNN
+F 1 "4.7K" V -9464 -4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.52x2.65mm_HandSolder" V -9310 -4110 50  0001 C CNN
+F 3 "~" H -9350 -4100 50  0001 C CNN
+	1    -9350 -4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-9500 -4100 -9650 -4100
+Wire Wire Line
+	-9650 -4100 -9650 -3550
+Wire Wire Line
+	-9050 -3550 -9050 -4100
+Wire Wire Line
+	-9050 -4100 -9200 -4100
+$Comp
+L power:+5V #PWR0129
+U 1 1 5E794724
+P -9050 -4200
+F 0 "#PWR0129" H -9050 -4350 50  0001 C CNN
+F 1 "+5V" H -9035 -4027 50  0000 C CNN
+F 2 "" H -9050 -4200 50  0001 C CNN
+F 3 "" H -9050 -4200 50  0001 C CNN
+	1    -9050 -4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0130
+U 1 1 5E7956C6
+P -9650 -4200
+F 0 "#PWR0130" H -9650 -4450 50  0001 C CNN
+F 1 "GND" H -9645 -4373 50  0000 C CNN
+F 2 "" H -9650 -4200 50  0001 C CNN
+F 3 "" H -9650 -4200 50  0001 C CNN
+	1    -9650 -4200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-9050 -4200 -9050 -4100
+Connection ~ -9050 -4100
+Wire Wire Line
+	-9650 -4200 -9650 -4100
+Connection ~ -9650 -4100
+Text GLabel -9350 -3150 3    50   Input ~ 0
+TEMP_SENSOR
+Wire Wire Line
+	-9350 -3150 -9350 -3250
+Text GLabel -8900 -1600 0    50   Input ~ 0
+TEMP_SENSOR
+Wire Wire Line
+	-8900 -1600 -8800 -1600
+Text GLabel -8900 -2300 0    50   Input ~ 0
+FAN_PWM
+Wire Wire Line
+	-8900 -2300 -8800 -2300
+Wire Wire Line
+	950  900  1050 900 
+Wire Wire Line
+	950  1450 1050 1450
+NoConn ~ -8000 -3300
+NoConn ~ -8100 -3300
+NoConn ~ -8800 -2800
+NoConn ~ -8800 -2700
+NoConn ~ -8800 -2600
+NoConn ~ -8800 -2500
+NoConn ~ -8800 -2200
+NoConn ~ -8800 -2000
+NoConn ~ -8800 -1800
+NoConn ~ -8800 -1700
+NoConn ~ -8800 -1500
+NoConn ~ -8800 -1400
+NoConn ~ -8800 -1200
+NoConn ~ -8800 -1100
+NoConn ~ -8800 -900
+NoConn ~ -8800 -800
+NoConn ~ -7400 -300
+NoConn ~ -7500 -300
+NoConn ~ -7600 -300
+NoConn ~ -7700 -300
+NoConn ~ -7800 -300
+NoConn ~ -7900 -300
+NoConn ~ -8000 -300
+NoConn ~ -6250 -2500
+NoConn ~ -6250 -2400
+NoConn ~ -6250 -2200
+NoConn ~ -6250 -2100
+$Comp
+L pspice:DIODE D1
+U 1 1 5EC71DA3
+P 1200 -3100
+F 0 "D1" H 1200 -3365 50  0000 C CNN
+F 1 "DIODE" H 1200 -3274 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering" H 1200 -3100 50  0001 C CNN
+F 3 "~" H 1200 -3100 50  0001 C CNN
+	1    1200 -3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	950  -3550 950  -3100
+Wire Wire Line
+	950  -3100 1000 -3100
+Wire Wire Line
+	1450 -3550 1450 -3100
+Wire Wire Line
+	1450 -3100 1400 -3100
+$Comp
+L Transistor_BJT:2N2219 Q3
+U 1 1 5ED30A45
+P 1750 -3000
+F 0 "Q3" V 2078 -3000 50  0000 C CNN
+F 1 "2N2219" V 1987 -3000 50  0000 C CNN
+F 2 "PS2BaseMount:2N7000_HandSolder" H 1950 -3075 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 1750 -3000 50  0001 L CNN
+	1    1750 -3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1450 -3100 1550 -3100
+Connection ~ 1450 -3100
+$Comp
+L Device:R_US R6
+U 1 1 5ED49ED7
+P 1600 -2750
+F 0 "R6" V 1395 -2750 50  0000 C CNN
+F 1 "1K" V 1486 -2750 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1640 -2760 50  0001 C CNN
+F 3 "~" H 1600 -2750 50  0001 C CNN
+	1    1600 -2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1750 -2750 1750 -2800
+Text GLabel 1300 -2750 0    50   Input ~ 0
+FAN_PWM
+Wire Wire Line
+	1300 -2750 1450 -2750
+$Comp
+L power:GND #PWR0131
+U 1 1 5ED974E5
+P 2050 -3100
+F 0 "#PWR0131" H 2050 -3350 50  0001 C CNN
+F 1 "GND" V 2055 -3228 50  0000 R CNN
+F 2 "" H 2050 -3100 50  0001 C CNN
+F 3 "" H 2050 -3100 50  0001 C CNN
+	1    2050 -3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1950 -3100 2050 -3100
+$Comp
+L power:+5V #PWR0132
+U 1 1 5EDB0E0B
+P 850 -3100
+F 0 "#PWR0132" H 850 -3250 50  0001 C CNN
+F 1 "+5V" V 865 -2972 50  0000 L CNN
+F 2 "" H 850 -3100 50  0001 C CNN
+F 3 "" H 850 -3100 50  0001 C CNN
+	1    850  -3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	850  -3100 950  -3100
+Connection ~ 950  -3100
+Text GLabel -4700 6300 0    50   Input ~ 0
+SCREEN_PWM
+$Comp
+L Device:R_US R7
+U 1 1 5E778107
+P -4450 6300
+F 0 "R7" V -4655 6300 50  0000 C CNN
+F 1 "4.7K" V -4564 6300 50  0000 C CNN
+F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" V -4410 6290 50  0001 C CNN
+F 3 "~" H -4450 6300 50  0001 C CNN
+	1    -4450 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L PS2BaseMount-rescue:AudioMount-PS2BoardItems U17
+U 1 1 5E77E6B5
+P -3850 6200
+F 0 "U17" H -4078 6159 50  0000 R CNN
+F 1 "ScreenPWM" H -4078 6250 50  0000 R CNN
+F 2 "PS2BaseMount:JST_1.5_2Pin" H -3850 6200 50  0001 C CNN
+F 3 "" H -3850 6200 50  0001 C CNN
+	1    -3850 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L pspice:CAP C1
+U 1 1 5E77FA1B
+P -4150 6700
+F 0 "C1" H -4328 6654 50  0000 R CNN
+F 1 "10U" H -4328 6745 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H -4150 6700 50  0001 C CNN
+F 3 "~" H -4150 6700 50  0001 C CNN
+	1    -4150 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0135
+U 1 1 5E780C55
+P -4150 7050
+F 0 "#PWR0135" H -4150 6800 50  0001 C CNN
+F 1 "GND" H -4145 6877 50  0000 C CNN
+F 2 "" H -4150 7050 50  0001 C CNN
+F 3 "" H -4150 7050 50  0001 C CNN
+	1    -4150 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4150 7050 -4150 6950
+Wire Wire Line
+	-4300 6300 -4150 6300
+Wire Wire Line
+	-4150 6450 -4150 6300
+Connection ~ -4150 6300
+Wire Wire Line
+	-4600 6300 -4700 6300
+$Comp
+L PS2BaseMount-rescue:GNDMount-PS2BoardItems U16
+U 1 1 5EA3397D
+P 1950 6600
+F 0 "U16" V 1993 6688 50  0000 L CNN
+F 1 "GNDMount" V 2084 6688 50  0000 L CNN
+F 2 "PS2BaseMount:GND" H 1950 6600 50  0001 C CNN
+F 3 "" H 1950 6600 50  0001 C CNN
+	1    1950 6600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1750 7300 1750 7400
+Wire Wire Line
+	1750 6900 1950 6900
+Wire Wire Line
+	1950 6900 1950 6700
+Connection ~ 1750 6900
+$Comp
+L Switch:SW_DIP_x01 SW1
+U 1 1 5E7A75B8
+P -4150 9050
+F 0 "SW1" H -4150 9317 50  0000 C CNN
+F 1 "INTERACTION" H -4150 9226 50  0000 C CNN
+F 2 "PS2BaseMount:SMT_2X4X3.5MM" H -4150 9050 50  0001 C CNN
+F 3 "~" H -4150 9050 50  0001 C CNN
+	1    -4150 9050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4150 6300 -3950 6300
+Text GLabel -4050 6200 1    50   Input ~ 0
+PS_3.4v
+$Comp
+L PS2BaseMount-rescue:PIC_14-PS2BoardItems U18
+U 1 1 5E90869A
+P -650 7750
+F 0 "U18" H -675 8265 50  0000 C CNN
+F 1 "PIC_14" H -675 8174 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H -950 7700 50  0001 C CNN
+F 3 "" H -950 7700 50  0001 C CNN
+	1    -650 7750
+	1    0    0    -1  
+$EndComp
+Text GLabel -100 7500 2    50   Input ~ 0
+GND_IN
+Wire Wire Line
+	-250 7500 -150 7500
+$Comp
+L power:+5V #PWR0136
+U 1 1 5E9252A7
+P -1300 7500
+F 0 "#PWR0136" H -1300 7350 50  0001 C CNN
+F 1 "+5V" V -1285 7628 50  0000 L CNN
+F 2 "" H -1300 7500 50  0001 C CNN
+F 3 "" H -1300 7500 50  0001 C CNN
+	1    -1300 7500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female J8
+U 1 1 5E95BAD3
+P -650 8850
+F 0 "J8" V -804 9098 50  0000 L CNN
+F 1 "Conn_01x06_Female" V -713 9098 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H -650 8850 50  0001 C CNN
+F 3 "~" H -650 8850 50  0001 C CNN
+	1    -650 8850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-950 8650 -1300 8650
+Wire Wire Line
+	-1300 8650 -1300 7800
+Wire Wire Line
+	-1300 7800 -1100 7800
+Wire Wire Line
+	-850 8650 -850 8550
+Wire Wire Line
+	-850 8550 -1150 8550
+Wire Wire Line
+	-1150 8550 -1150 7500
+Connection ~ -1150 7500
+Wire Wire Line
+	-1150 7500 -1100 7500
+Wire Wire Line
+	-150 7500 -150 8250
+Wire Wire Line
+	-150 8250 -750 8250
+Wire Wire Line
+	-750 8250 -750 8650
+Connection ~ -150 7500
+Wire Wire Line
+	-150 7500 -100 7500
+Wire Wire Line
+	-650 8650 -650 8300
+Wire Wire Line
+	-650 8300 -50  8300
+Wire Wire Line
+	-50  8300 -50  7600
+Wire Wire Line
+	-50  7600 -250 7600
+Wire Wire Line
+	-250 7700 50   7700
+Wire Wire Line
+	50   7700 50   8400
+Wire Wire Line
+	50   8400 -550 8400
+Wire Wire Line
+	-550 8400 -550 8650
+Text GLabel -4550 9050 0    50   Input ~ 0
+INTERACT
+Wire Wire Line
+	-4550 9050 -4450 9050
+Text GLabel -3700 9050 2    50   Input ~ 0
+GND_OUT
+Wire Wire Line
+	-3850 9050 -3700 9050
+Text GLabel -1350 7600 0    50   Input ~ 0
+INTERACT
+Wire Wire Line
+	-1350 7600 -1100 7600
+Text GLabel -1400 7900 0    50   Input ~ 0
+ENABLE
+Wire Wire Line
+	-1400 7900 -1100 7900
+Wire Wire Line
+	-250 7800 150  7800
+Text GLabel -1400 8000 0    50   Input ~ 0
+LED_RED
+Wire Wire Line
+	-1400 8000 -1100 8000
+Text GLabel -1400 8100 0    50   Input ~ 0
+LED_GREEN
+Wire Wire Line
+	-1400 8100 -1100 8100
+Text GLabel 150  8100 2    50   Input ~ 0
+LED_YELLOW
+Wire Wire Line
+	-250 8100 150  8100
+Text GLabel -1350 7700 0    50   Input ~ 0
+BATT
+Wire Wire Line
+	-1350 7700 -1100 7700
+$Comp
+L PS2BaseMount-rescue:GNDMount-PS2BoardItems U19
+U 1 1 5EC075E9
+P 250 7800
+F 0 "U19" H 337 8025 50  0000 C CNN
+F 1 "PS2_RESET" H 337 7934 50  0000 C CNN
+F 2 "PS2BaseMount:GND" H 250 7800 50  0001 C CNN
+F 3 "" H 250 7800 50  0001 C CNN
+	1    250  7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0137
+U 1 1 5EA34D1C
+P -5350 3050
+F 0 "#PWR0137" H -5350 2800 50  0001 C CNN
+F 1 "GND" V -5345 2922 50  0000 R CNN
+F 2 "" H -5350 3050 50  0001 C CNN
+F 3 "" H -5350 3050 50  0001 C CNN
+	1    -5350 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-5350 3050 -5450 3050
+$Comp
+L Device:R R10
+U 1 1 5EA57C25
+P -5950 3600
+F 0 "R10" H -6020 3554 50  0000 R CNN
+F 1 "220" H -6020 3645 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V -6020 3600 50  0001 C CNN
+F 3 "~" H -5950 3600 50  0001 C CNN
+	1    -5950 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5EA58D7A
+P -5650 3600
+F 0 "R11" H -5580 3646 50  0000 L CNN
+F 1 "R10K" H -5580 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V -5720 3600 50  0001 C CNN
+F 3 "~" H -5650 3600 50  0001 C CNN
+	1    -5650 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5650 3450 -5650 3350
+$Comp
+L Device:LED D4
+U 1 1 5EA7B8AC
+P -5950 3200
+F 0 "D4" V -6003 3278 50  0000 L CNN
+F 1 "LED_RED" V -5912 3278 50  0000 L CNN
+F 2 "LED_THT:LED_D3.0mm" H -5950 3200 50  0001 C CNN
+F 3 "~" H -5950 3200 50  0001 C CNN
+	1    -5950 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-5950 3050 -5850 3050
+$Comp
+L power:+5V #PWR0138
+U 1 1 5EBC8E71
+P -5950 3850
+F 0 "#PWR0138" H -5950 3700 50  0001 C CNN
+F 1 "+5V" H -5935 4023 50  0000 C CNN
+F 2 "" H -5950 3850 50  0001 C CNN
+F 3 "" H -5950 3850 50  0001 C CNN
+	1    -5950 3850
+	-1   0    0    1   
+$EndComp
+Text GLabel -5650 3850 3    50   Input ~ 0
+LED_RED
+Wire Wire Line
+	-5650 3850 -5650 3750
+$Comp
+L Transistor_FET:2N7000 Q6
+U 1 1 5E950A61
+P -5650 3150
+F 0 "Q6" H -5444 3104 50  0000 L CNN
+F 1 "2N7000" H -5444 3195 50  0000 L CNN
+F 2 "PS2BaseMount:2N7000_HandSolder" H -5450 3075 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H -5650 3150 50  0001 L CNN
+	1    -5650 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-5950 3450 -5950 3350
+Wire Wire Line
+	-5950 3850 -5950 3750
+$Comp
+L power:GND #PWR0139
+U 1 1 5ECBE3DD
+P -6400 3050
+F 0 "#PWR0139" H -6400 2800 50  0001 C CNN
+F 1 "GND" V -6395 2922 50  0000 R CNN
+F 2 "" H -6400 3050 50  0001 C CNN
+F 3 "" H -6400 3050 50  0001 C CNN
+	1    -6400 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-6400 3050 -6500 3050
+$Comp
+L Device:R R9
+U 1 1 5ECBE3E4
+P -7000 3600
+F 0 "R9" H -7070 3554 50  0000 R CNN
+F 1 "R220" H -7070 3645 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V -7070 3600 50  0001 C CNN
+F 3 "~" H -7000 3600 50  0001 C CNN
+	1    -7000 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5ECBE3EA
+P -6700 3600
+F 0 "R12" H -6630 3646 50  0000 L CNN
+F 1 "R10K" H -6630 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V -6770 3600 50  0001 C CNN
+F 3 "~" H -6700 3600 50  0001 C CNN
+	1    -6700 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-6700 3450 -6700 3350
+$Comp
+L Device:LED D3
+U 1 1 5ECBE3F1
+P -7000 3200
+F 0 "D3" V -7053 3278 50  0000 L CNN
+F 1 "LED_YELLOW" V -6962 3278 50  0000 L CNN
+F 2 "LED_THT:LED_D3.0mm" H -7000 3200 50  0001 C CNN
+F 3 "~" H -7000 3200 50  0001 C CNN
+	1    -7000 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-7000 3050 -6900 3050
+$Comp
+L power:+5V #PWR0140
+U 1 1 5ECBE3F8
+P -7000 3850
+F 0 "#PWR0140" H -7000 3700 50  0001 C CNN
+F 1 "+5V" H -6985 4023 50  0000 C CNN
+F 2 "" H -7000 3850 50  0001 C CNN
+F 3 "" H -7000 3850 50  0001 C CNN
+	1    -7000 3850
+	-1   0    0    1   
+$EndComp
+Text GLabel -6700 3850 3    50   Input ~ 0
+LED_YELLOW
+Wire Wire Line
+	-6700 3850 -6700 3750
+$Comp
+L Transistor_FET:2N7000 Q5
+U 1 1 5ECBE400
+P -6700 3150
+F 0 "Q5" H -6494 3104 50  0000 L CNN
+F 1 "2N7000" H -6494 3195 50  0000 L CNN
+F 2 "PS2BaseMount:2N7000_HandSolder" H -6500 3075 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H -6700 3150 50  0001 L CNN
+	1    -6700 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-7000 3450 -7000 3350
+Wire Wire Line
+	-7000 3850 -7000 3750
+$Comp
+L power:GND #PWR0141
+U 1 1 5ECE3AB2
+P -7450 3050
+F 0 "#PWR0141" H -7450 2800 50  0001 C CNN
+F 1 "GND" V -7445 2922 50  0000 R CNN
+F 2 "" H -7450 3050 50  0001 C CNN
+F 3 "" H -7450 3050 50  0001 C CNN
+	1    -7450 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-7450 3050 -7550 3050
+$Comp
+L Device:R R8
+U 1 1 5ECE3AB9
+P -8050 3600
+F 0 "R8" H -8120 3554 50  0000 R CNN
+F 1 "R220" H -8120 3645 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V -8120 3600 50  0001 C CNN
+F 3 "~" H -8050 3600 50  0001 C CNN
+	1    -8050 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5ECE3ABF
+P -7750 3600
+F 0 "R13" H -7680 3646 50  0000 L CNN
+F 1 "R10K" H -7680 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V -7820 3600 50  0001 C CNN
+F 3 "~" H -7750 3600 50  0001 C CNN
+	1    -7750 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7750 3450 -7750 3350
+$Comp
+L Device:LED D2
+U 1 1 5ECE3AC6
+P -8050 3200
+F 0 "D2" V -8103 3278 50  0000 L CNN
+F 1 "LED_GREEN" V -8012 3278 50  0000 L CNN
+F 2 "LED_THT:LED_D3.0mm" H -8050 3200 50  0001 C CNN
+F 3 "~" H -8050 3200 50  0001 C CNN
+	1    -8050 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-8050 3050 -7950 3050
+$Comp
+L power:+5V #PWR0142
+U 1 1 5ECE3ACD
+P -8050 3850
+F 0 "#PWR0142" H -8050 3700 50  0001 C CNN
+F 1 "+5V" H -8035 4023 50  0000 C CNN
+F 2 "" H -8050 3850 50  0001 C CNN
+F 3 "" H -8050 3850 50  0001 C CNN
+	1    -8050 3850
+	-1   0    0    1   
+$EndComp
+Text GLabel -7750 3850 3    50   Input ~ 0
+LED_GREEN
+Wire Wire Line
+	-7750 3850 -7750 3750
+$Comp
+L Transistor_FET:2N7000 Q4
+U 1 1 5ECE3AD5
+P -7750 3150
+F 0 "Q4" H -7544 3104 50  0000 L CNN
+F 1 "2N7000" H -7544 3195 50  0000 L CNN
+F 2 "PS2BaseMount:2N7000_HandSolder" H -7550 3075 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H -7750 3150 50  0001 L CNN
+	1    -7750 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-8050 3450 -8050 3350
+Wire Wire Line
+	-8050 3850 -8050 3750
+$Comp
+L Device:R R14
+U 1 1 5E9D83CA
+P -2800 7250
+F 0 "R14" H -2730 7296 50  0000 L CNN
+F 1 "R100K" H -2730 7205 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V -2870 7250 50  0001 C CNN
+F 3 "~" H -2800 7250 50  0001 C CNN
+	1    -2800 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5E9D966D
+P -2800 7650
+F 0 "R15" H -2730 7696 50  0000 L CNN
+F 1 "R100K" H -2730 7605 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V -2870 7650 50  0001 C CNN
+F 3 "~" H -2800 7650 50  0001 C CNN
+	1    -2800 7650
+	1    0    0    -1  
+$EndComp
+Text GLabel -2650 7450 2    50   Input ~ 0
+BATT
+$Comp
+L power:GND #PWR0144
+U 1 1 5E9DC54B
+P -2800 7900
+F 0 "#PWR0144" H -2800 7650 50  0001 C CNN
+F 1 "GND" H -2795 7727 50  0000 C CNN
+F 2 "" H -2800 7900 50  0001 C CNN
+F 3 "" H -2800 7900 50  0001 C CNN
+	1    -2800 7900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2800 7900 -2800 7800
+Wire Wire Line
+	-2800 7500 -2800 7450
+Wire Wire Line
+	-2800 7100 -2800 7000
+Wire Wire Line
+	-2800 7450 -2650 7450
+Connection ~ -2800 7450
+Wire Wire Line
+	-2800 7450 -2800 7400
+$Comp
+L Switch:SW_DIP_x01 SW2
+U 1 1 5EAB1E07
+P 7300 5750
+F 0 "SW2" H 7300 6017 50  0000 C CNN
+F 1 "START" H 7300 5926 50  0000 C CNN
+F 2 "PS2BaseMount:SquishyTact" H 7300 5750 50  0001 C CNN
+F 3 "~" H 7300 5750 50  0001 C CNN
+	1    7300 5750
+	1    0    0    -1  
+$EndComp
+Text GLabel 4900 4350 0    50   Input ~ 0
+BTN_START
+Text GLabel 4900 4200 0    50   Input ~ 0
+BTN_SELECT
+Text GLabel 6900 5750 0    50   Input ~ 0
+BTN_START
+Wire Wire Line
+	6900 5750 7000 5750
+$Comp
+L power:GND #PWR0103
+U 1 1 5EADB30B
+P 7700 5750
+F 0 "#PWR0103" H 7700 5500 50  0001 C CNN
+F 1 "GND" V 7705 5622 50  0000 R CNN
+F 2 "" H 7700 5750 50  0001 C CNN
+F 3 "" H 7700 5750 50  0001 C CNN
+	1    7700 5750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7600 5750 7700 5750
+$Comp
+L Switch:SW_DIP_x01 SW3
+U 1 1 5EB01D57
+P 7300 6150
+F 0 "SW3" H 7300 6417 50  0000 C CNN
+F 1 "SELECT" H 7300 6326 50  0000 C CNN
+F 2 "PS2BaseMount:SquishyTact" H 7300 6150 50  0001 C CNN
+F 3 "~" H 7300 6150 50  0001 C CNN
+	1    7300 6150
+	1    0    0    -1  
+$EndComp
+Text GLabel 6900 6150 0    50   Input ~ 0
+BTN_SELECT
+Wire Wire Line
+	6900 6150 7000 6150
+$Comp
+L power:GND #PWR0104
+U 1 1 5EB29D35
+P 7700 6150
+F 0 "#PWR0104" H 7700 5900 50  0001 C CNN
+F 1 "GND" V 7705 6022 50  0000 R CNN
+F 2 "" H 7700 6150 50  0001 C CNN
+F 3 "" H 7700 6150 50  0001 C CNN
+	1    7700 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7600 6150 7700 6150
+Wire Wire Line
+	5350 4100 5350 4800
+Wire Wire Line
+	5450 4100 5450 4800
+Wire Wire Line
+	5850 4100 5850 4500
+Wire Wire Line
+	5950 4100 5950 4500
+Wire Wire Line
+	6050 4100 6050 4500
+Wire Wire Line
+	6150 4100 6150 4500
+Text GLabel 3900 2800 0    50   Input ~ 0
+SCREEN_PWM
+Wire Wire Line
+	3900 2800 4650 2800
+Wire Wire Line
+	6650 3600 7700 3600
+Wire Wire Line
+	6650 3500 7700 3500
+Wire Wire Line
+	6650 2800 7300 2800
+Wire Wire Line
+	6650 2900 7300 2900
+Wire Wire Line
+	6650 2700 7600 2700
+Wire Wire Line
+	4650 3200 5250 3200
+Connection ~ 4650 3200
+Wire Wire Line
+	4650 3100 5200 3100
+Connection ~ 4650 3100
+Wire Wire Line
+	5200 3000 6650 3000
+Connection ~ 6650 3000
+Wire Wire Line
+	5250 3100 6650 3100
+Connection ~ 6650 3100
+$Comp
+L PS2BaseMount-rescue:PIC16F18876-I_PT-PIC16F18876-I_PT-ps2plus-rescue U8
+U 1 1 5D46ABA3
+P 5650 3100
+F 0 "U8" H 5600 3250 50  0000 L CNN
+F 1 "PIC16F18876-I_PT" H 5300 3450 50  0000 L CNN
+F 2 "PS2BaseMount:PIC16F18876-I_PT" H 5650 3100 50  0001 L BNN
+F 3 "" H 5650 3100 50  0001 L BNN
+F 4 "TQFP-44 Microchip" H 5650 3100 50  0001 L BNN "Field4"
+F 5 "None" H 5650 3100 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 5650 3100 50  0001 L BNN "Field6"
+F 7 "28KB Flash 2KB RAM 256B EE ADCC Analog PWM CWG SMT HLT WWDT SCAN/CRC" H 5650 3100 50  0001 L BNN "Field7"
+F 8 "PIC16F18876-I/PT" H 5650 3100 50  0001 L BNN "Field8"
+	1    5650 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 1350 6050 2100
+Wire Wire Line
+	5950 1350 5950 2100
+Wire Wire Line
+	5850 1350 5850 2100
+Wire Wire Line
+	5750 1350 5750 2100
+Wire Wire Line
+	5350 1350 5350 2100
+Wire Wire Line
+	5250 1350 5250 2100
+Wire Wire Line
+	5150 1350 5150 2100
+Wire Wire Line
+	4150 2600 4650 2600
+Wire Wire Line
+	3700 3300 4650 3300
+Wire Wire Line
+	3700 3400 4650 3400
+Wire Wire Line
+	3700 3500 4650 3500
+Wire Wire Line
+	3700 3600 4650 3600
+Wire Wire Line
+	4050 3100 4650 3100
+Wire Wire Line
+	3700 3200 4650 3200
+Wire Wire Line
+	6650 3000 7850 3000
+Wire Wire Line
+	6650 3100 7650 3100
+$Comp
+L power:GND #PWR0107
+U 1 1 5EE523C7
+P 3650 3100
+F 0 "#PWR0107" H 3650 2850 50  0001 C CNN
+F 1 "GND" V 3655 2972 50  0000 R CNN
+F 2 "" H 3650 3100 50  0001 C CNN
+F 3 "" H 3650 3100 50  0001 C CNN
+	1    3650 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5EE720A0
+P 7850 3000
+F 0 "#PWR0108" H 7850 2750 50  0001 C CNN
+F 1 "GND" V 7855 2872 50  0000 R CNN
+F 2 "" H 7850 3000 50  0001 C CNN
+F 3 "" H 7850 3000 50  0001 C CNN
+	1    7850 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0145
+U 1 1 5EE944E9
+P 2150 1900
+F 0 "#PWR0145" H 2150 1650 50  0001 C CNN
+F 1 "GND" H 2155 1727 50  0000 C CNN
+F 2 "" H 2150 1900 50  0001 C CNN
+F 3 "" H 2150 1900 50  0001 C CNN
+	1    2150 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0146
+U 1 1 5EE951C1
+P 1500 1900
+F 0 "#PWR0146" H 1500 1650 50  0001 C CNN
+F 1 "GND" H 1505 1727 50  0000 C CNN
+F 2 "" H 1500 1900 50  0001 C CNN
+F 3 "" H 1500 1900 50  0001 C CNN
+	1    1500 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4900 4350 5550 4350
+Connection ~ 5550 4350
+Wire Wire Line
+	5550 4350 5550 4800
+Wire Wire Line
+	5550 4100 5550 4350
+Wire Wire Line
+	4900 4200 5650 4200
+Wire Wire Line
+	5650 4200 5650 4150
+Connection ~ 5650 4150
+NoConn ~ -450 8650
+NoConn ~ -250 8000
+$Comp
+L power:+5V #PWR0147
+U 1 1 5F053669
+P -7500 -3400
+F 0 "#PWR0147" H -7500 -3550 50  0001 C CNN
+F 1 "+5V" H -7485 -3227 50  0000 C CNN
+F 2 "" H -7500 -3400 50  0001 C CNN
+F 3 "" H -7500 -3400 50  0001 C CNN
+	1    -7500 -3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7500 -3300 -7500 -3400
+Wire Wire Line
+	-7600 -3300 -7600 -3400
+Wire Wire Line
+	-7600 -3400 -7500 -3400
+Connection ~ -7500 -3400
+$Comp
+L power:GND #PWR0148
+U 1 1 5F0947A8
+P -8200 -150
+F 0 "#PWR0148" H -8200 -400 50  0001 C CNN
+F 1 "GND" H -8195 -323 50  0000 C CNN
+F 2 "" H -8200 -150 50  0001 C CNN
+F 3 "" H -8200 -150 50  0001 C CNN
+	1    -8200 -150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-8200 -150 -8200 -300
+Wire Wire Line
+	-8100 -300 -8100 -150
+Wire Wire Line
+	-8100 -150 -8200 -150
+Connection ~ -8200 -150
+NoConn ~ -4000 7800
+NoConn ~ -4000 8300
+NoConn ~ -4500 8300
+NoConn ~ -4500 7800
+NoConn ~ 9050 3500
+Text GLabel -2800 7000 1    50   Input ~ 0
+BATT_IN
+Wire Wire Line
+	1500 2900 1500 2850
+$Comp
+L Device:R_Small_US R4
+U 1 1 5E7C881E
+P 1400 7200
+F 0 "R4" V 1195 7200 50  0000 C CNN
+F 1 "100K" V 1286 7200 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1400 7200 50  0001 C CNN
+F 3 "~" H 1400 7200 50  0001 C CNN
+	1    1400 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q2
+U 1 1 5E777B62
+P 1650 7100
+F 0 "Q2" H 1855 7146 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 1855 7055 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220F-3_Vertical" H 1850 7200 50  0001 C CNN
+F 3 "~" H 1650 7100 50  0001 C CNN
+	1    1650 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 7300 1750 7300
+Connection ~ 1750 7300
+Text GLabel 5150 1350 1    50   Input ~ 0
+LX1
+Text GLabel 3700 3600 0    50   Input ~ 0
+DRIGHT
+Text GLabel 3700 3500 0    50   Input ~ 0
+DUP
+Text GLabel 3700 3400 0    50   Input ~ 0
+BTN_L1
+Text GLabel 3700 3300 0    50   Input ~ 0
+BTN_L2
+NoConn ~ -4500 -2500
+NoConn ~ -4500 -2600
+NoConn ~ -4500 -2700
+NoConn ~ -4500 -2800
+NoConn ~ -4500 -2400
+NoConn ~ -4500 -2300
+NoConn ~ -4500 -2200
+NoConn ~ -4500 -2100
+Wire Wire Line
+	-6250 -2800 -6000 -2800
+Wire Wire Line
+	-6000 -2800 -6000 -2600
+Wire Wire Line
+	-6000 -2600 -5500 -2600
+Wire Wire Line
+	-5500 -2800 -5950 -2800
+Wire Wire Line
+	-5950 -2800 -5950 -2850
+Wire Wire Line
+	-5950 -2850 -6150 -2850
+Wire Wire Line
+	-6150 -2850 -6150 -2600
+Wire Wire Line
+	-6150 -2600 -6250 -2600
+Wire Wire Line
+	-6250 -2700 -5650 -2700
+Wire Wire Line
+	-5650 -2700 -5650 -2300
+Wire Wire Line
+	-5650 -2300 -5500 -2300
+Wire Wire Line
+	-5500 -2700 -5550 -2700
+Wire Wire Line
+	-5550 -2700 -5550 -2350
+Wire Wire Line
+	-5550 -2350 -5750 -2350
+Wire Wire Line
+	-5750 -2350 -5750 -2300
+Wire Wire Line
+	-5750 -2300 -6250 -2300
+NoConn ~ -5500 -2200
+NoConn ~ -5500 -2100
+NoConn ~ -5500 -2400
+NoConn ~ -5500 -2500
+Wire Wire Line
+	-6900 -3800 -6800 -3800
+$Comp
+L power:GND #PWR0116
+U 1 1 5E0ED349
+P -6800 -3800
+F 0 "#PWR0116" H -6800 -4050 50  0001 C CNN
+F 1 "GND" V -6795 -3928 50  0000 R CNN
+F 2 "" H -6800 -3800 50  0001 C CNN
+F 3 "" H -6800 -3800 50  0001 C CNN
+	1    -6800 -3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PS2BaseMount-rescue:USB_B-Connector J4
+U 1 1 5E078803
+P -6400 -4750
+F 0 "J4" V -6391 -4421 50  0000 L CNN
+F 1 "USB_B" V -6300 -4421 50  0000 L CNN
+F 2 "PS2BaseMount:USB_A_Custom_Throughhole_MountGuide" H -6250 -4800 50  0001 C CNN
+F 3 " ~" H -6250 -4800 50  0001 C CNN
+	1    -6400 -4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-6500 -4450 -6500 -4000
+Wire Wire Line
+	-6500 -4000 -6900 -4000
+Wire Wire Line
+	-6900 -3900 -6400 -3900
+Wire Wire Line
+	-6400 -3900 -6400 -4450
+$Comp
+L power:+5V #PWR0114
+U 1 1 5E0B000E
+P -6200 -4350
+F 0 "#PWR0114" H -6200 -4500 50  0001 C CNN
+F 1 "+5V" H -6185 -4177 50  0000 C CNN
+F 2 "" H -6200 -4350 50  0001 C CNN
+F 3 "" H -6200 -4350 50  0001 C CNN
+	1    -6200 -4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-6200 -4350 -6200 -4450
+$Comp
+L power:+5V #PWR0115
+U 1 1 5E0D218E
+P -6800 -4100
+F 0 "#PWR0115" H -6800 -4250 50  0001 C CNN
+F 1 "+5V" V -6785 -3972 50  0000 L CNN
+F 2 "" H -6800 -4100 50  0001 C CNN
+F 3 "" H -6800 -4100 50  0001 C CNN
+	1    -6800 -4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-6900 -4100 -6800 -4100
+$Comp
+L power:GND #PWR0117
+U 1 1 5E0EDAAA
+P -6900 -4750
+F 0 "#PWR0117" H -6900 -5000 50  0001 C CNN
+F 1 "GND" V -6895 -4878 50  0000 R CNN
+F 2 "" H -6900 -4750 50  0001 C CNN
+F 3 "" H -6900 -4750 50  0001 C CNN
+	1    -6900 -4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-6900 -4750 -6800 -4750
+Connection ~ -6900 -4750
+Wire Wire Line
+	-6900 -4750 -6900 -4850
+Wire Wire Line
+	-6900 -4850 -6800 -4850
+$Comp
+L PS2BaseMount-rescue:OrangePiZero-PiBoards U1
+U 1 1 5D4B1E07
+P -7800 -1800
+F 0 "U1" H -6831 -1754 50  0000 L CNN
+F 1 "OrangePiZero" H -6831 -1845 50  0000 L CNN
+F 2 "PS2BaseMount:OrangePiZero" H -7600 -2050 50  0001 C CNN
+F 3 "http://www.orangepi.org/orangepizero/" H -7600 -2050 50  0001 C CNN
+	1    -7800 -1800
+	1    0    0    -1  
+$EndComp
+Text GLabel -8850 -1900 0    50   Input ~ 0
+PI_SHUTDOWN
+Wire Wire Line
+	-8850 -1900 -8800 -1900
+Text GLabel 150  7900 2    50   Input ~ 0
+PI_SHUTDOWN
+Wire Wire Line
+	-250 7900 150  7900
+$Comp
+L PS2BaseMount-rescue:PS2_ControlMount-PS2BoardItems P2
+U 1 1 5C454D65
+P 2800 5300
+F 0 "P2" H 2675 5965 50  0000 C CNN
+F 1 "PS2_ControlMount" H 2675 5874 50  0000 C CNN
+F 2 "PS2BaseMount:PS2_BoardMountFootprint" H 2750 5300 50  0001 C CNN
+F 3 "" H 2750 5300 50  0001 C CNN
+	1    2800 5300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3100 5300
+$Comp
+L power:GND #PWR0102
+U 1 1 5F0A61EF
+P -2400 4550
+F 0 "#PWR0102" H -2400 4300 50  0001 C CNN
+F 1 "GND" V -2395 4422 50  0000 R CNN
+F 2 "" H -2400 4550 50  0001 C CNN
+F 3 "" H -2400 4550 50  0001 C CNN
+	1    -2400 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5F0C4A03
+P -1450 6300
+F 0 "#PWR0110" H -1450 6050 50  0001 C CNN
+F 1 "GND" V -1445 6172 50  0000 R CNN
+F 2 "" H -1450 6300 50  0001 C CNN
+F 3 "" H -1450 6300 50  0001 C CNN
+	1    -1450 6300
+	0    -1   -1   0   
+$EndComp
+NoConn ~ -2450 4650
+$Comp
+L power:+5V #PWR0111
+U 1 1 5F13D571
+P -1450 6400
+F 0 "#PWR0111" H -1450 6250 50  0001 C CNN
+F 1 "+5V" V -1435 6528 50  0000 L CNN
+F 2 "" H -1450 6400 50  0001 C CNN
+F 3 "" H -1450 6400 50  0001 C CNN
+	1    -1450 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L PS2BaseMount-rescue:PAM8403-pamamp U5
+U 1 1 5F0C6562
+P -1400 1250
+F 0 "U5" H -1400 1937 60  0000 C CNN
+F 1 "PAM8403" H -1400 1831 60  0000 C CNN
+F 2 "w_smd_dil:so-16" H -1400 1200 60  0001 C CNN
+F 3 "" H -1400 1200 60  0001 C CNN
+F 4 "C348830" H -1400 1250 50  0001 C CNN "LCSC"
+	1    -1400 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel -2050 850  0    50   Input ~ 0
++OUT_L
+Text GLabel -2050 1050 0    50   Input ~ 0
+-OUT_L
+Text GLabel -2050 1450 0    50   Input ~ 0
+INL
+Text GLabel -750 850  2    50   Input ~ 0
++OUT_R
+Text GLabel -750 1250 2    50   Input ~ 0
+SHND
+$Comp
+L power:GND #PWR0112
+U 1 1 5F113DC0
+P -750 1350
+F 0 "#PWR0112" H -750 1100 50  0001 C CNN
+F 1 "GND" V -745 1222 50  0000 R CNN
+F 2 "" H -750 1350 50  0001 C CNN
+F 3 "" H -750 1350 50  0001 C CNN
+	1    -750 1350
+	0    -1   -1   0   
+$EndComp
+Text GLabel -750 1450 2    50   Input ~ 0
+INR
+$Comp
+L power:GND #PWR0128
+U 1 1 5F115B16
+P -750 1550
+F 0 "#PWR0128" H -750 1300 50  0001 C CNN
+F 1 "GND" V -745 1422 50  0000 R CNN
+F 2 "" H -750 1550 50  0001 C CNN
+F 3 "" H -750 1550 50  0001 C CNN
+	1    -750 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-2050 850  -1950 850 
+Wire Wire Line
+	-1950 950  -2050 950 
+Wire Wire Line
+	-2050 1050 -1950 1050
+Wire Wire Line
+	-2050 1450 -1950 1450
+Wire Wire Line
+	-1950 1550 -2050 1550
+Wire Wire Line
+	-850 850  -750 850 
+Wire Wire Line
+	-750 950  -850 950 
+Wire Wire Line
+	-850 1050 -750 1050
+Wire Wire Line
+	-850 1250 -750 1250
+Wire Wire Line
+	-750 1350 -850 1350
+Wire Wire Line
+	-850 1450 -750 1450
+Wire Wire Line
+	-750 1550 -850 1550
+$Comp
+L PS2BaseMount-rescue:AudioMount-PS2BoardItems U4
+U 1 1 5CA19D6C
+P -4000 1400
+F 0 "U4" H -4228 1359 50  0000 R CNN
+F 1 "Audio_Right" H -4228 1450 50  0000 R CNN
+F 2 "PS2BaseMount:JST_1.5_2Pin" H -4000 1400 50  0001 C CNN
+F 3 "" H -4000 1400 50  0001 C CNN
+	1    -4000 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L PS2BaseMount-rescue:PJ30240-PS2BoardItems U2
+U 1 1 5C8DA656
+P -300 3300
+F 0 "U2" V -272 2972 50  0000 R CNN
+F 1 "PJ30240" V -363 2972 50  0000 R CNN
+F 2 "PS2BaseMount:AudioJack_PJ30240" H -300 3300 50  0001 C CNN
+F 3 "" H -300 3300 50  0001 C CNN
+	1    -300 3300
+	0    1    1    0   
+$EndComp
+Text GLabel -550 3600 3    50   Input ~ 0
+IN_R
+Text GLabel -450 3600 3    50   Input ~ 0
+IN_L
+Wire Wire Line
+	-450 3600 -450 3500
+Wire Wire Line
+	-550 3500 -550 3600
+Text GLabel -5250 200  0    50   Input ~ 0
+IN_L
+$Comp
+L Device:C C2
+U 1 1 5F54F93A
+P -4950 200
+F 0 "C2" V -5202 200 50  0000 C CNN
+F 1 "470n" V -5111 200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H -4912 50  50  0001 C CNN
+F 3 "~" H -4950 200 50  0001 C CNN
+F 4 "C1871" V -4950 200 50  0001 C CNN "LCSC"
+	1    -4950 200 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R17
+U 1 1 5F550D39
+P -4600 200
+F 0 "R17" V -4796 200 50  0000 C CNN
+F 1 "R10K" V -4705 200 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H -4600 200 50  0001 C CNN
+F 3 "~" H -4600 200 50  0001 C CNN
+F 4 "C17902" V -4600 200 50  0001 C CNN "LCSC"
+	1    -4600 200 
+	0    1    1    0   
+$EndComp
+Text GLabel -4400 200  2    50   Input ~ 0
+INL
+Wire Wire Line
+	-4800 200  -4700 200 
+Wire Wire Line
+	-4500 200  -4400 200 
+Text GLabel -5250 600  0    50   Input ~ 0
+IN_R
+$Comp
+L Device:C C3
+U 1 1 5F5AF61B
+P -4950 600
+F 0 "C3" V -5202 600 50  0000 C CNN
+F 1 "470n" V -5111 600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H -4912 450 50  0001 C CNN
+F 3 "~" H -4950 600 50  0001 C CNN
+F 4 "C1871" V -4950 600 50  0001 C CNN "LCSC"
+	1    -4950 600 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R18
+U 1 1 5F5AF621
+P -4600 600
+F 0 "R18" V -4796 600 50  0000 C CNN
+F 1 "R10K" V -4705 600 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H -4600 600 50  0001 C CNN
+F 3 "~" H -4600 600 50  0001 C CNN
+F 4 "C17902" V -4600 600 50  0001 C CNN "LCSC"
+	1    -4600 600 
+	0    1    1    0   
+$EndComp
+Text GLabel -4400 600  2    50   Input ~ 0
+INR
+Wire Wire Line
+	-4800 600  -4700 600 
+Wire Wire Line
+	-4500 600  -4400 600 
+Text GLabel -3850 200  0    50   Input ~ 0
+SHND
+$Comp
+L Device:R_Small R19
+U 1 1 5F5F3F2D
+P -3650 200
+F 0 "R19" V -3846 200 50  0000 C CNN
+F 1 "R10K" V -3755 200 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H -3650 200 50  0001 C CNN
+F 3 "~" H -3650 200 50  0001 C CNN
+F 4 "C17902" V -3650 200 50  0001 C CNN "LCSC"
+	1    -3650 200 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0133
+U 1 1 5F5F4EDA
+P -3450 200
+F 0 "#PWR0133" H -3450 50  50  0001 C CNN
+F 1 "+5V" V -3435 328 50  0000 L CNN
+F 2 "" H -3450 200 50  0001 C CNN
+F 3 "" H -3450 200 50  0001 C CNN
+	1    -3450 200 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-3550 200  -3450 200 
+Wire Wire Line
+	-3750 200  -3850 200 
+Text GLabel -4200 1400 0    50   Input ~ 0
++OUT_R
+Text GLabel -4200 1500 0    50   Input ~ 0
+-OUT_R
+Text GLabel -5150 1300 2    50   Input ~ 0
++OUT_L
+Text GLabel -5150 1400 2    50   Input ~ 0
+-OUT_L
+Wire Wire Line
+	-4200 1400 -4100 1400
+Wire Wire Line
+	-4100 1500 -4200 1500
+Wire Wire Line
+	-5250 1300 -5150 1300
+Wire Wire Line
+	-5150 1400 -5250 1400
+$Comp
+L Device:C C5
+U 1 1 5F8DCE39
+P -2050 -150
+F 0 "C5" V -2302 -150 50  0000 C CNN
+F 1 "C1u" V -2211 -150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H -2012 -300 50  0001 C CNN
+F 3 "~" H -2050 -150 50  0001 C CNN
+F 4 "C1848" V -2050 -150 50  0001 C CNN "LCSC"
+	1    -2050 -150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0151
+U 1 1 5F900F82
+P -2050 100
+F 0 "#PWR0151" H -2050 -150 50  0001 C CNN
+F 1 "GND" V -2045 -28 50  0000 R CNN
+F 2 "" H -2050 100 50  0001 C CNN
+F 3 "" H -2050 100 50  0001 C CNN
+	1    -2050 100 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0152
+U 1 1 5F96C3AC
+P -2650 1300
+F 0 "#PWR0152" H -2650 1150 50  0001 C CNN
+F 1 "+5V" V -2635 1428 50  0000 L CNN
+F 2 "" H -2650 1300 50  0001 C CNN
+F 3 "" H -2650 1300 50  0001 C CNN
+	1    -2650 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2050 1550 -2050 1600
+Wire Wire Line
+	-1300 7500 -1150 7500
+$Comp
+L power:GND #PWR0155
+U 1 1 5FA966BB
+P -1350 150
+F 0 "#PWR0155" H -1350 -100 50  0001 C CNN
+F 1 "GND" V -1345 22  50  0000 R CNN
+F 2 "" H -1350 150 50  0001 C CNN
+F 3 "" H -1350 150 50  0001 C CNN
+	1    -1350 150 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C8
+U 1 1 5F991E86
+P -1350 -100
+F 0 "C8" V -1098 -100 50  0000 C CNN
+F 1 "C470u" V -1189 -100 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm" H -1350 -100 50  0001 C CNN
+F 3 "~" H -1350 -100 50  0001 C CNN
+	1    -1350 -100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0134
+U 1 1 602ABE03
+P -500 150
+F 0 "#PWR0134" H -500 -100 50  0001 C CNN
+F 1 "GND" V -495 22  50  0000 R CNN
+F 2 "" H -500 150 50  0001 C CNN
+F 3 "" H -500 150 50  0001 C CNN
+	1    -500 150 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-500 50   -500 150 
+$Comp
+L Device:C C4
+U 1 1 5F7E5F18
+P -500 -100
+F 0 "C4" V -752 -100 50  0000 C CNN
+F 1 "C1u" V -661 -100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H -462 -250 50  0001 C CNN
+F 3 "~" H -500 -100 50  0001 C CNN
+F 4 "C1848" V -500 -100 50  0001 C CNN "LCSC"
+	1    -500 -100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 5FA00C33
+P -2050 1750
+F 0 "C9" V -2302 1750 50  0000 C CNN
+F 1 "470n" V -2211 1750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H -2012 1600 50  0001 C CNN
+F 3 "~" H -2050 1750 50  0001 C CNN
+F 4 "C1871" V -2050 1750 50  0001 C CNN "LCSC"
+	1    -2050 1750
+	-1   0    0    1   
+$EndComp
+Text GLabel -750 1050 2    50   Input ~ 0
+-OUT_R
+Wire Wire Line
+	-1350 -400 -800 -400
+Wire Wire Line
+	-500 -400 -500 -250
+Connection ~ -1350 -400
+Wire Wire Line
+	-1350 -400 -1350 -250
+Wire Wire Line
+	-1350 -400 -1650 -400
+Wire Wire Line
+	-2050 -400 -2050 -300
+Wire Wire Line
+	-800 -400 -800 700 
+Wire Wire Line
+	-800 700  -150 700 
+Wire Wire Line
+	-150 700  -150 1150
+Wire Wire Line
+	-150 1150 -850 1150
+Connection ~ -800 -400
+Wire Wire Line
+	-800 -400 -500 -400
+Wire Wire Line
+	-1650 -400 -1650 650 
+Wire Wire Line
+	-1650 650  -2550 650 
+Wire Wire Line
+	-2550 650  -2550 1150
+Wire Wire Line
+	-2550 1150 -1950 1150
+Connection ~ -1650 -400
+Wire Wire Line
+	-1650 -400 -2050 -400
+Wire Wire Line
+	-2650 1300 -2500 1300
+Wire Wire Line
+	-2500 1300 -2500 1250
+Wire Wire Line
+	-2500 1250 -1950 1250
+Wire Wire Line
+	-2500 1350 -2500 1300
+Wire Wire Line
+	-2500 1350 -1950 1350
+Connection ~ -2500 1300
+$Comp
+L power:GND #PWR0150
+U 1 1 60952F9E
+P -2050 2000
+F 0 "#PWR0150" H -2050 1750 50  0001 C CNN
+F 1 "GND" H -2045 1827 50  0000 C CNN
+F 2 "" H -2050 2000 50  0001 C CNN
+F 3 "" H -2050 2000 50  0001 C CNN
+	1    -2050 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2050 2000 -2050 1900
+Wire Wire Line
+	-5250 200  -5100 200 
+Wire Wire Line
+	-5100 600  -5250 600 
+Wire Wire Line
+	-1350 150  -1350 50  
+Wire Wire Line
+	-2050 100  -2050 0   
+$Comp
+L power:GND #PWR0154
+U 1 1 60AFB09D
+P -2050 950
+F 0 "#PWR0154" H -2050 700 50  0001 C CNN
+F 1 "GND" V -2045 822 50  0000 R CNN
+F 2 "" H -2050 950 50  0001 C CNN
+F 3 "" H -2050 950 50  0001 C CNN
+	1    -2050 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0156
+U 1 1 60AFBDDE
+P -750 950
+F 0 "#PWR0156" H -750 700 50  0001 C CNN
+F 1 "GND" V -745 822 50  0000 R CNN
+F 2 "" H -750 950 50  0001 C CNN
+F 3 "" H -750 950 50  0001 C CNN
+	1    -750 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Regulator_Switching:LM2596T-5 U20
+U 1 1 5F068FF4
+P 2900 -1300
+F 0 "U20" H 2900 -933 50  0000 C CNN
+F 1 "LM2596T-5" H 2900 -1024 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 2950 -1550 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2596.pdf" H 2900 -1300 50  0001 C CNN
+F 4 " C10002" H 2900 -1300 50  0001 C CNN "LCSC"
+	1    2900 -1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C7
+U 1 1 5F06BA3F
+P 2050 -1250
+F 0 "C7" H 2168 -1204 50  0000 L CNN
+F 1 "CP_680uF" H 2168 -1295 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm" H 2088 -1400 50  0001 C CNN
+F 3 "~" H 2050 -1250 50  0001 C CNN
+	1    2050 -1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:INDUCTOR L1
+U 1 1 5F06F346
+P 4000 -1200
+F 0 "L1" H 4000 -985 50  0000 C CNN
+F 1 "INDUCTOR_33uH" H 4000 -1076 50  0000 C CNN
+F 2 "Inductor_SMD:L_12x12mm_H8mm" H 4000 -1200 50  0001 C CNN
+F 3 "~" H 4000 -1200 50  0001 C CNN
+F 4 " C169375" H 4000 -1200 50  0001 C CNN "LCSC"
+	1    4000 -1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 -1400 1950 -1400
+Wire Wire Line
+	2400 -1400 2050 -1400
+Connection ~ 2050 -1400
+Wire Wire Line
+	2200 -950 2050 -950
+Wire Wire Line
+	2050 -950 2050 -1100
+Wire Wire Line
+	2200 -950 2200 -1200
+Wire Wire Line
+	2200 -1200 2400 -1200
+Connection ~ 2200 -950
+Wire Wire Line
+	2200 -950 2900 -950
+Wire Wire Line
+	2900 -950 2900 -1000
+Wire Wire Line
+	4250 -1200 4350 -1200
+Wire Wire Line
+	3400 -1400 4350 -1400
+Wire Wire Line
+	4350 -1400 4350 -1200
+Connection ~ 4350 -1200
+$Comp
+L power:+5V #PWR0157
+U 1 1 5F25C2BE
+P 4500 -1200
+F 0 "#PWR0157" H 4500 -1350 50  0001 C CNN
+F 1 "+5V" V 4515 -1072 50  0000 L CNN
+F 2 "" H 4500 -1200 50  0001 C CNN
+F 3 "" H 4500 -1200 50  0001 C CNN
+	1    4500 -1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 -1200 4450 -1200
+$Comp
+L Device:C C6
+U 1 1 5F06CB14
+P -2950 1300
+F 0 "C6" V -3202 1300 50  0000 C CNN
+F 1 "C1u" V -3111 1300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H -2912 1150 50  0001 C CNN
+F 3 "~" H -2950 1300 50  0001 C CNN
+F 4 "C1848" V -2950 1300 50  0001 C CNN "LCSC"
+	1    -2950 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-2800 1300 -2650 1300
+Connection ~ -2650 1300
+$Comp
+L power:GND #PWR0158
+U 1 1 5F09595B
+P -3100 1300
+F 0 "#PWR0158" H -3100 1050 50  0001 C CNN
+F 1 "GND" V -3095 1172 50  0000 R CNN
+F 2 "" H -3100 1300 50  0001 C CNN
+F 3 "" H -3100 1300 50  0001 C CNN
+	1    -3100 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L PS2BaseMount-rescue:GNDMount-PS2BoardItems U22
+U 1 1 5F0C58F8
+P 1750 -1400
+F 0 "U22" H 1838 -1615 50  0000 C CNN
+F 1 "BATT_IN" H 1838 -1524 50  0000 C CNN
+F 2 "PS2BaseMount:MountPoint" H 1750 -1400 50  0001 C CNN
+F 3 "" H 1750 -1400 50  0001 C CNN
+	1    1750 -1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L PS2BaseMount-rescue:GNDMount-PS2BoardItems U23
+U 1 1 5F114997
+P 4450 -1300
+F 0 "U23" V 4584 -1378 50  0000 R CNN
+F 1 "5vMount" V 4493 -1378 50  0000 R CNN
+F 2 "PS2BaseMount:MountPoint" H 4450 -1300 50  0001 C CNN
+F 3 "" H 4450 -1300 50  0001 C CNN
+	1    4450 -1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4450 -1200 4500 -1200
+Connection ~ 4450 -1200
+$Comp
+L PS2BaseMount-rescue:GNDMount-PS2BoardItems U21
+U 1 1 5F13DF49
+P 1650 -700
+F 0 "U21" H 1738 -915 50  0000 C CNN
+F 1 "GND_IN" H 1738 -824 50  0000 C CNN
+F 2 "PS2BaseMount:MountPoint" H 1650 -700 50  0001 C CNN
+F 3 "" H 1650 -700 50  0001 C CNN
+	1    1650 -700
+	-1   0    0    1   
+$EndComp
+Text GLabel 1950 -1500 1    50   Input ~ 0
+BATT_IN
+Wire Wire Line
+	1950 -1500 1950 -1400
+Connection ~ 1950 -1400
+Wire Wire Line
+	1950 -1400 2050 -1400
+Text GLabel 1850 -700 1    50   Input ~ 0
+GND_IN
+Text GLabel 1900 -700 3    50   Input ~ 0
+GND_OUT
+Wire Wire Line
+	2200 -700 2200 -950
+$Comp
+L Device:CP C10
+U 1 1 5F071621
+P 4350 -1050
+F 0 "C10" H 4468 -1004 50  0000 L CNN
+F 1 "CP_220uF" H 4468 -1095 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 4388 -1200 50  0001 C CNN
+F 3 "~" H 4350 -1050 50  0001 C CNN
+	1    4350 -1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 -1200 3750 -1200
+Wire Wire Line
+	3400 -1200 3650 -1200
+Connection ~ 3650 -1200
+$Comp
+L Device:D_Schottky D5
+U 1 1 5F06D67D
+P 3650 -1050
+F 0 "D5" V 3604 -971 50  0000 L CNN
+F 1 "D_Schottky" V 3695 -971 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering" H 3650 -1050 50  0001 C CNN
+F 3 "~" H 3650 -1050 50  0001 C CNN
+F 4 "C8678" V 3650 -1050 50  0001 C CNN "LCSC"
+	1    3650 -1050
+	0    1    1    0   
+$EndComp
+Text GLabel 3650 -900 3    50   Input ~ 0
+GND_IN
+Text GLabel 4350 -900 3    50   Input ~ 0
+GND_IN
+Wire Wire Line
+	1750 -700 2200 -700
+$Comp
+L Motor:Fan M7
+U 1 1 5EC59872
+P 1250 -3550
+F 0 "M7" V 1545 -3500 50  0000 C CNN
+F 1 "Fan" V 1454 -3500 50  0000 C CNN
+F 2 "PS2BaseMount:JST_1.5_2Pin" H 1250 -3540 50  0001 C CNN
+F 3 "~" H 1250 -3540 50  0001 C CNN
+	1    1250 -3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-4050 6200 -3950 6200
+$Comp
+L Device:LED D6
+U 1 1 5F07FFA1
+P -7400 2050
+F 0 "D6" H -7407 2266 50  0000 C CNN
+F 1 "BATT_LED_A" H -7407 2175 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H -7400 2050 50  0001 C CNN
+F 3 "~" H -7400 2050 50  0001 C CNN
+	1    -7400 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D7
+U 1 1 5F081530
+P -7400 2450
+F 0 "D7" H -7407 2666 50  0000 C CNN
+F 1 "BATT_LED_B" H -7407 2575 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H -7400 2450 50  0001 C CNN
+F 3 "~" H -7400 2450 50  0001 C CNN
+	1    -7400 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PS2BaseMount-rescue:GNDMount-PS2BoardItems U7
+U 1 1 5F084995
+P -7650 2050
+F 0 "U7" H -7562 1835 50  0000 C CNN
+F 1 "GNDMount" H -7562 1926 50  0000 C CNN
+F 2 "PS2BaseMount:GND" H -7650 2050 50  0001 C CNN
+F 3 "" H -7650 2050 50  0001 C CNN
+	1    -7650 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L PS2BaseMount-rescue:GNDMount-PS2BoardItems U25
+U 1 1 5F08684D
+P -7150 2050
+F 0 "U25" H -7063 2275 50  0000 C CNN
+F 1 "GNDMount" H -7063 2184 50  0000 C CNN
+F 2 "PS2BaseMount:GND" H -7150 2050 50  0001 C CNN
+F 3 "" H -7150 2050 50  0001 C CNN
+	1    -7150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PS2BaseMount-rescue:GNDMount-PS2BoardItems U26
+U 1 1 5F0877C1
+P -7150 2450
+F 0 "U26" H -7063 2675 50  0000 C CNN
+F 1 "GNDMount" H -7063 2584 50  0000 C CNN
+F 2 "PS2BaseMount:GND" H -7150 2450 50  0001 C CNN
+F 3 "" H -7150 2450 50  0001 C CNN
+	1    -7150 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PS2BaseMount-rescue:GNDMount-PS2BoardItems U24
+U 1 1 5F0888AC
+P -7650 2450
+F 0 "U24" H -7562 2235 50  0000 C CNN
+F 1 "GNDMount" H -7562 2326 50  0000 C CNN
+F 2 "PS2BaseMount:GND" H -7650 2450 50  0001 C CNN
+F 3 "" H -7650 2450 50  0001 C CNN
+	1    -7650 2450
+	-1   0    0    1   
+$EndComp
+Entry Wire Line
+	2950 -1350 3050 -1250
+Entry Wire Line
+	2850 -1550 2950 -1450
+$Sheet
+S 2800 600  1500 850 
+U 62D6CF28
+F0 "PAM8403AMP" 50
+F1 "PAM8403AMP.sch" 50
+$EndSheet
+$EndSCHEMATC

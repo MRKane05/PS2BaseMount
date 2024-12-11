@@ -1,0 +1,511 @@
+EESchema Schematic File Version 4
+LIBS:PS2BaseMount-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PS2BoardItems:PS2_ControlMount P2
+U 1 1 5C454CB4
+P 6900 3600
+F 0 "P2" H 6775 4265 50  0000 C CNN
+F 1 "PS2_ControlMount" H 6775 4174 50  0000 C CNN
+F 2 "PS2BaseMount:PS2_BoardMountFootprint" H 6850 3600 50  0001 C CNN
+F 3 "" H 6850 3600 50  0001 C CNN
+	1    6900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PS2BoardItems:PS2_ControlMount P1
+U 1 1 5C454D65
+P 6900 5150
+F 0 "P1" H 6775 5815 50  0000 C CNN
+F 1 "PS2_ControlMount" H 6775 5724 50  0000 C CNN
+F 2 "PS2BaseMount:PS2_BoardMountFootprint" H 6850 5150 50  0001 C CNN
+F 3 "" H 6850 5150 50  0001 C CNN
+	1    6900 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L PS2BoardItems:PS2AVPort M1
+U 1 1 5C456998
+P 4400 4850
+F 0 "M1" H 4425 5325 50  0000 C CNN
+F 1 "PS2AVPort" H 4425 5234 50  0000 C CNN
+F 2 "PS2BaseMount:PS2_AVPort_Complete" H 4300 4550 50  0001 C CNN
+F 3 "" H 4300 4550 50  0001 C CNN
+	1    4400 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B J1
+U 1 1 5C465998
+P 6550 1700
+F 0 "J1" H 6605 2167 50  0000 C CNN
+F 1 "USB_B" H 6605 2076 50  0000 C CNN
+F 2 "PS2BaseMount:USB_A_Custom_Throughhole" H 6700 1650 50  0001 C CNN
+F 3 " ~" H 6700 1650 50  0001 C CNN
+	1    6550 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_A_Dual J2
+U 1 1 5C4CC1E6
+P 10400 1100
+F 0 "J2" H 10325 1665 50  0000 C CNN
+F 1 "USB_A_Dual" H 10325 1574 50  0000 C CNN
+F 2 "Connector_USB:USB_A_Wuerth_61400826021_Horizontal_Stacked" H 10550 1150 50  0001 C CNN
+F 3 " ~" H 10550 1150 50  0001 C CNN
+	1    10400 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PS2BoardItems:AudioAmp U1
+U 1 1 5C69F3F4
+P 2700 4250
+F 0 "U1" H 2700 3635 50  0000 C CNN
+F 1 "AudioAmp" H 2700 3726 50  0000 C CNN
+F 2 "PS2BaseMount:PAM8803_AudioAmp" H 2650 4000 50  0001 C CNN
+F 3 "" H 2650 4000 50  0001 C CNN
+	1    2700 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 4650 4800 4500
+Wire Wire Line
+	4800 4500 3050 4500
+Wire Wire Line
+	4800 4750 4900 4750
+Wire Wire Line
+	4900 4750 4900 4300
+Wire Wire Line
+	4900 4300 3050 4300
+$Comp
+L Connector:RJ45 J3
+U 1 1 5C69E8B1
+P 4450 3450
+F 0 "J3" H 4120 3454 50  0000 R CNN
+F 1 "RJ45" H 4120 3545 50  0000 R CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 4450 3475 50  0001 C CNN
+F 3 "~" V 4450 3475 50  0001 C CNN
+	1    4450 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L PS2BoardItems:SM05B-GHS-TB(LF)(SN) M3
+U 1 1 5C78B414
+P 9650 2250
+F 0 "M3" H 9473 2210 50  0000 R CNN
+F 1 "TS_RHT" H 9473 2301 50  0000 R CNN
+F 2 "Connector_JST:JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal" H 9650 2250 50  0001 C CNN
+F 3 "" H 9650 2250 50  0001 C CNN
+	1    9650 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L PS2BoardItems:SM05B-GHS-TB(LF)(SN) M2
+U 1 1 5C78B6DF
+P 8250 2150
+F 0 "M2" H 8072 2203 50  0000 R CNN
+F 1 "TS_LFT" H 8072 2112 50  0000 R CNN
+F 2 "Connector_JST:JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal" H 8250 2150 50  0001 C CNN
+F 3 "" H 8250 2150 50  0001 C CNN
+	1    8250 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L PS2BoardItems:10P_FCCMount m2
+U 1 1 5C78D3DE
+P 9600 3350
+F 0 "m2" H 9373 3310 50  0000 R CNN
+F 1 "10P_RHT" H 9373 3401 50  0000 R CNN
+F 2 "Connector_FFC-FPC:Hirose_FH12-10S-0.5SH_1x10-1MP_P0.50mm_Horizontal" H 9600 3400 50  0001 C CNN
+F 3 "" H 9600 3400 50  0001 C CNN
+	1    9600 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L PS2BoardItems:10P_FCCMount m1
+U 1 1 5C78D781
+P 8300 3250
+F 0 "m1" H 8072 3303 50  0000 R CNN
+F 1 "10P_LFT" H 8072 3212 50  0000 R CNN
+F 2 "Connector_FFC-FPC:Hirose_FH12-10S-0.5SH_1x10-1MP_P0.50mm_Horizontal" H 8300 3300 50  0001 C CNN
+F 3 "" H 8300 3300 50  0001 C CNN
+	1    8300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U2
+U 1 1 5C883B59
+P 1900 1250
+F 0 "U2" H 1750 1550 50  0000 C CNN
+F 1 "LM358" H 2000 1050 50  0000 C CNN
+F 2 "PS2BaseMount:LM358(SMD)" H 1900 1250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 1900 1250 50  0001 C CNN
+	1    1900 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Thermistor_PTC TH1
+U 1 1 5C8873B9
+P 1200 2200
+F 0 "TH1" H 1298 2246 50  0000 L CNN
+F 1 "Thermistor_PTC" H 1298 2155 50  0000 L CNN
+F 2 "PS2BaseMount:2Point_Mount" H 1250 2000 50  0001 L CNN
+F 3 "~" H 1200 2200 50  0001 C CNN
+	1    1200 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5C8877F5
+P 2500 1250
+F 0 "R2" V 2295 1250 50  0000 C CNN
+F 1 "1K" V 2386 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 2540 1240 50  0001 C CNN
+F 3 "~" H 2500 1250 50  0001 C CNN
+	1    2500 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 5C888189
+P 1200 1700
+F 0 "R1" H 1268 1746 50  0000 L CNN
+F 1 "4.7K" H 1268 1655 50  0000 L CNN
+F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.52x2.65mm_HandSolder" V 1240 1690 50  0001 C CNN
+F 3 "~" H 1200 1700 50  0001 C CNN
+	1    1200 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1250 2350 1250
+$Comp
+L Transistor_BJT:MJE13003 Q1
+U 1 1 5C88AD7A
+P 2950 1250
+F 0 "Q1" H 3142 1296 50  0000 L CNN
+F 1 "MJE3305" H 3142 1205 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 3150 1175 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MJE13003-D.PDF" H 2950 1250 50  0001 L CNN
+	1    2950 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 1250 2750 1250
+Wire Wire Line
+	1200 2050 1200 1950
+$Comp
+L power:GND #PWR0101
+U 1 1 5C88CA88
+P 1200 2700
+F 0 "#PWR0101" H 1200 2450 50  0001 C CNN
+F 1 "GND" H 1205 2527 50  0000 C CNN
+F 2 "" H 1200 2700 50  0001 C CNN
+F 3 "" H 1200 2700 50  0001 C CNN
+	1    1200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5C88DEFF
+P 1200 650
+F 0 "#PWR0102" H 1200 500 50  0001 C CNN
+F 1 "+5V" H 1215 823 50  0000 C CNN
+F 2 "" H 1200 650 50  0001 C CNN
+F 3 "" H 1200 650 50  0001 C CNN
+	1    1200 650 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1950 1500 1950
+Wire Wire Line
+	1500 1950 1500 1350
+Wire Wire Line
+	1500 1350 1600 1350
+Connection ~ 1200 1950
+Wire Wire Line
+	1200 1950 1200 1850
+$Comp
+L Device:R_POT_US RV1
+U 1 1 5C890B4F
+P 1000 1150
+F 0 "RV1" H 932 1196 50  0000 R CNN
+F 1 "R_POT_US" H 932 1105 50  0000 R CNN
+F 2 "Potentiometers:Potentiometer_Triwood_RM-065" H 1000 1150 50  0001 C CNN
+F 3 "~" H 1000 1150 50  0001 C CNN
+	1    1000 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 650  1200 800 
+Wire Wire Line
+	1200 2350 1200 2400
+Wire Wire Line
+	1150 1150 1600 1150
+Wire Wire Line
+	1000 1300 1000 2400
+Wire Wire Line
+	1000 2400 1200 2400
+Connection ~ 1200 2400
+Wire Wire Line
+	1200 2400 1200 2500
+Wire Wire Line
+	1000 1000 1000 900 
+Wire Wire Line
+	1000 900  1200 900 
+Connection ~ 1200 900 
+Wire Wire Line
+	1200 900  1200 1550
+$Comp
+L Motor:Fan M4
+U 1 1 5C89A1A3
+P 3050 1850
+F 0 "M4" H 3208 1946 50  0000 L CNN
+F 1 "Fan" H 3208 1855 50  0000 L CNN
+F 2 "PS2BaseMount:2Point_Mount" H 3050 1860 50  0001 C CNN
+F 3 "~" H 3050 1860 50  0001 C CNN
+	1    3050 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1450 3050 1550
+$Comp
+L Device:R R3
+U 1 1 5C89C572
+P 3300 750
+F 0 "R3" V 3093 750 50  0000 C CNN
+F 1 "Fan_J+" V 3184 750 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" V 3230 750 50  0001 C CNN
+F 3 "~" H 3300 750 50  0001 C CNN
+	1    3300 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5C89CE6B
+P 3500 1100
+F 0 "R4" V 3293 1100 50  0000 C CNN
+F 1 "Fan_J-" V 3384 1100 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" V 3430 1100 50  0001 C CNN
+F 3 "~" H 3500 1100 50  0001 C CNN
+	1    3500 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5C89E51C
+P 3750 1100
+F 0 "#PWR0105" H 3750 850 50  0001 C CNN
+F 1 "GND" V 3755 972 50  0000 R CNN
+F 2 "" H 3750 1100 50  0001 C CNN
+F 3 "" H 3750 1100 50  0001 C CNN
+	1    3750 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0106
+U 1 1 5C89E8D0
+P 3550 750
+F 0 "#PWR0106" H 3550 600 50  0001 C CNN
+F 1 "+5V" V 3565 878 50  0000 L CNN
+F 2 "" H 3550 750 50  0001 C CNN
+F 3 "" H 3550 750 50  0001 C CNN
+	1    3550 750 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 1100 3750 1100
+Wire Wire Line
+	3450 750  3550 750 
+Wire Wire Line
+	3150 750  3050 750 
+Wire Wire Line
+	3050 750  3050 1050
+Wire Wire Line
+	3350 1100 3350 2050
+Wire Wire Line
+	3350 2050 3050 2050
+Wire Wire Line
+	1900 1050 1900 800 
+Wire Wire Line
+	1900 800  1200 800 
+Connection ~ 1200 800 
+Wire Wire Line
+	1200 800  1200 900 
+Wire Wire Line
+	1800 1500 1800 2500
+Wire Wire Line
+	1800 2500 1200 2500
+Connection ~ 1200 2500
+Wire Wire Line
+	1200 2500 1200 2700
+$Comp
+L PS2BoardItems:PJ30240 U3
+U 1 1 5C8DA656
+P 1450 3850
+F 0 "U3" V 1478 3522 50  0000 R CNN
+F 1 "PJ30240" V 1387 3522 50  0000 R CNN
+F 2 "PS2BaseMount:AudioJack_PJ30240" H 1450 3850 50  0001 C CNN
+F 3 "" H 1450 3850 50  0001 C CNN
+	1    1450 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2350 3900 2200 3900
+Wire Wire Line
+	2200 3900 2200 3400
+Wire Wire Line
+	2200 3400 1500 3400
+Wire Wire Line
+	1500 3400 1500 3650
+Wire Wire Line
+	2350 4100 2250 4100
+Wire Wire Line
+	2100 4100 2100 3500
+Wire Wire Line
+	2100 3500 1400 3500
+Wire Wire Line
+	1400 3500 1400 3650
+$Comp
+L power:GND #PWR0103
+U 1 1 5C8E6C74
+P 1300 3450
+F 0 "#PWR0103" H 1300 3200 50  0001 C CNN
+F 1 "GND" H 1305 3277 50  0000 C CNN
+F 2 "" H 1300 3450 50  0001 C CNN
+F 3 "" H 1300 3450 50  0001 C CNN
+	1    1300 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1300 3450 1300 3650
+$Comp
+L PS2BoardItems:AudioMount U4
+U 1 1 5CA195F8
+P 1900 3100
+F 0 "U4" H 1856 3425 50  0000 C CNN
+F 1 "Audio_Left" H 1856 3334 50  0000 C CNN
+F 2 "Connector_JST:JST_ZE_SM02B-ZESS-TBT_1x02-1MP_P1.50mm_Horizontal" H 1900 3100 50  0001 C CNN
+F 3 "" H 1900 3100 50  0001 C CNN
+	1    1900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PS2BoardItems:AudioMount U5
+U 1 1 5CA19D6C
+P 2600 3100
+F 0 "U5" H 2372 3059 50  0000 R CNN
+F 1 "Audio_Right" H 2372 3150 50  0000 R CNN
+F 2 "Connector_JST:JST_ZE_SM02B-ZESS-TBT_1x02-1MP_P1.50mm_Horizontal" H 2600 3100 50  0001 C CNN
+F 3 "" H 2600 3100 50  0001 C CNN
+	1    2600 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2350 3900 2350 3200
+Wire Wire Line
+	2350 3200 2500 3200
+Connection ~ 2350 3900
+Wire Wire Line
+	2250 4100 2250 3000
+Wire Wire Line
+	2250 3000 2000 3000
+Connection ~ 2250 4100
+Wire Wire Line
+	2250 4100 2100 4100
+Wire Wire Line
+	2350 4000 2300 4000
+Wire Wire Line
+	2300 4000 2300 3100
+Wire Wire Line
+	2300 3100 2500 3100
+Wire Wire Line
+	2150 4200 2150 3100
+Wire Wire Line
+	2150 3100 2000 3100
+Wire Wire Line
+	2150 4200 2350 4200
+$Comp
+L power:GND #PWR0104
+U 1 1 5CA20FD7
+P 2200 2900
+F 0 "#PWR0104" H 2200 2650 50  0001 C CNN
+F 1 "GND" H 2205 2727 50  0000 C CNN
+F 2 "" H 2200 2900 50  0001 C CNN
+F 3 "" H 2200 2900 50  0001 C CNN
+	1    2200 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2200 2950 2500 2950
+Wire Wire Line
+	2500 2950 2500 3000
+Wire Wire Line
+	2000 3200 2200 3200
+Wire Wire Line
+	2200 2900 2200 2950
+Connection ~ 2200 2950
+Wire Wire Line
+	2200 2950 2200 3200
+$Comp
+L PS2BoardItems:PS2AVPort M5
+U 1 1 5CB2CCDA
+P 3900 5800
+F 0 "M5" H 3925 6275 50  0000 C CNN
+F 1 "PS2AVPort_SideMount" H 3925 6184 50  0000 C CNN
+F 2 "PS2BaseMount:PS2_AVPort_Complete_MountSilk" H 3800 5500 50  0001 C CNN
+F 3 "" H 3800 5500 50  0001 C CNN
+	1    3900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L PS2BoardItems:PS2_MemCardMount P3
+U 1 1 5CB32299
+P 5900 5050
+F 0 "P3" H 5969 5525 50  0000 C CNN
+F 1 "PS2_MemCardMount" H 5969 5434 50  0000 C CNN
+F 2 "PS2BaseMount:PS2_MemCardMountPoints" H 6200 4950 50  0001 C CNN
+F 3 "" H 6200 4950 50  0001 C CNN
+	1    5900 5050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4800 6350 4800
+Wire Wire Line
+	6350 4900 6100 4900
+Wire Wire Line
+	6100 5000 6350 5000
+Wire Wire Line
+	6350 5100 6100 5100
+Wire Wire Line
+	6100 5200 6350 5200
+Wire Wire Line
+	6350 5300 6100 5300
+Wire Wire Line
+	6100 5400 6350 5400
+Wire Wire Line
+	6350 5500 6100 5500
+$Comp
+L MCU_Module:Arduino_Nano_v3.x A1
+U 1 1 5CE20DAB
+P 1450 6250
+F 0 "A1" H 1450 5164 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 1450 5073 50  0000 C CNN
+F 2 "Module:Arduino_Nano_WithMountingHoles" H 1600 5300 50  0001 L CNN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 1450 5250 50  0001 C CNN
+	1    1450 6250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
